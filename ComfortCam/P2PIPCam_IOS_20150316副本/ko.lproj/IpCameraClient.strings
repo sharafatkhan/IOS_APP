@@ -1,0 +1,328 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+
+//通用
+Edit = "수정";
+Done = "완료";
+Delete = "삭제";
+Back = "뒤로 가기";
+User = "사용자 이름";
+Pwd = "비밀번호";
+OK = "확인";
+Cancel = "취소";
+Message= "확인";
+IpAddr = "IP 주소";
+Port = "포트";
+selectAll="모두선택";
+reserveSelect="모두선택 토글";
+
+//摄像机界面
+IPCamera = "카메라";
+fourviews="4채널 뷰";
+TouchAddCamera = "카메라 추가";
+cameraNumOut="최대 카메라 수를 초과하였습니다.";
+ingInitCamera="새로고침 중입니다...";
+
+PPPPModeP2P = "p2p connected";
+PPPPModeRelay = "p2p relay";
+PPPPModeUnknown = "unknown";
+PPPPStatusUnknown = "알수 없는 에러";
+PPPPStatusConnecting = "연결중";
+PPPPStatusInitialing = "연결됨, 초기화중";
+PPPPStatusOnline = "연결됨";
+PPPPStatusConnectFailed = "연결 실패";
+PPPPStatusDisconnected = "연결 끊김";
+PPPPStatusInvalidID = "ID 오류";
+PPPPStatusConnectTimeout = "connect timeout";
+CameraIsNotOnline = "연결 끊김";
+
+noadmin="No Administrator or bad network";
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+ddnscameraisofflineornolan="Request failed or mobile phone and camera connects difference network";
+//添加摄像机界面
+AddCamera = "카메라 추가";
+EditCamera = "카메라 수정";
+CameraName = "카메라 이름";
+CameraID = "카메라 ID" ;
+InputCameraName = "카메라 이름을 입력하세요.";
+InputCameraID = "카메라 ID를 입력하세요.";
+InputUserName = "사용자 이름을 입력하세요.";
+InputPassword = "비밀번호를 입력하세요.";
+CameraInfo = "카메라 설정";
+inputCameraIp="IP 주소를 입력하세요.";
+inputCameraPort="포트를 입력하세요.";
+cameraIp="IP 주소";
+cameraPort="포트";
+pleaseInputcameraIp="IP 주소를 입력하세요.";
+pleaseInputcameraPort="포트를 입력하세요.";
+PleaseInputCamreraName = "카메라 이름을 입력하세요.";
+PleaseInputCameraID = "카메라 ID를 입력하세요.";
+PleaseInputUserName = "사용자 이름을 입력하세요.";
+ScanQRCode = "QR코드 스캔";
+LANSearch = "카메라 검색";
+editcameraunableuse="The device's camera is not available";
+addcamera_idnotchinese="ID can not contains Chinese";
+addcamera_prompt="This camera exists";
+nouserorloginuser="Username can not be user or loginuser";
+nopwd="Password can not ben pwd";
+//局域网搜索摄像机界面
+SearchCamera = "카메라 검색";
+//视频观看界面
+DefaultVideoParams = "비디오 설정을 초기화 했습니다.";
+play_stop_record_p="Please first stop record video";
+preset_call="불러오기";
+preset_set="저장하기";
+preset="프리셋";
+play_mode="재생 설정";
+play_goodvalue="화질 우선";
+play_fastspeed="프레임 레이트 우선";
+play_goodfast="중간 화질";
+play_frame="Frame";
+play_recording="저장중…";
+TakePictureSuccess = "스냅샷을 저장했습니다.";
+//图片界面
+LocalPic = "스냅샷";
+//图片日期界面
+//图片列表界面
+initPicPrompt="스냅샷을 로딩하고 있습니다...";
+piclisteditprompt="Pictures Loading,tap edit button in a moment";
+//图片观看界面
+picshow_delete="Do you want to delete image?";
+picshow_share="Do you want to share image?";
+picshow_album="Do you want to save image to album?";
+SavePictureSuccess = "스냅샷을 앨범에 저장하였습니다." ;
+
+
+
+//录像界面
+Record = "영상";
+Local = "스마트폰";
+Remote = "카메라";
+//录像日期界面
+//录像列表界面
+//录像观看界面
+//远程录像列表界面
+//远程录像观看界面
+//关于界面
+About = "프로그램 정보";
+about_version="버전";
+about_internalversion="Internal 버전";
+//设置界面
+setttingsrestart="카메라 재부팅";
+restartdeciveprompt="카메라를 지금 재부팅 하시겠습니까?";
+restartdecivemessage="Device to restart over a period of time, restart do not operate the device";
+devicerestarting="Device restarting...";
+
+
+//日期设置界面
+ClockSetting="시간 설정";
+
+datetimeDeviceTime = "카메라 현재 시간";
+datetimeDeviceTiming = "NTP 서버 사용";
+datetimeDeviceTimingServer = "NTP 서버";
+datetimeDeviceTimezone = "표준 시간대";
+datetimeDeviceTimeLocal = "스마트 폰 현재 시간으로 설정";
+
+datetime_jan="Jan";
+datetime_Feb="Feb";
+datetime_Mar="Mar";
+datetime_Apr="Apr";
+datetime_May="May";
+datetime_Jun="Jun";
+datetime_Jul="Jul";
+datetime_Aug="Aug";
+datetime_Sept="Sept";
+datetime_Oct="Oct";
+datetime_Nov="Nov";
+datetime_Dec="Dec";
+
+datetime_Sun="Sun";
+datetime_Mon="Mon";
+datetime_Tue="Tue";
+datetime_Wed="Wed";
+datetime_Thu="Thu";
+datetime_Fri="Fri";
+datetime_Sat="Sat";
+
+datetimeZone0 = "(GMT -11:00) Midway Islands, Samoa Islands";
+datetimeZone1 = "(GMT -10:00) Hawaii";
+datetimeZone2 = "(GMT -09:00) Alaska Standard";
+datetimeZone3 = "(GMT -08:00) Pacific Standard(USA and Canada)";
+datetimeZone4 = "(GMT -07:00) Mountain Standard(USA and Canada)";
+datetimeZone5 = "(GMT -06:00) Central Standard(USA and Canada), Mexico City";
+datetimeZone6 = "(GMT -05:00) Eastern Standard(USA and Canada), Lima, Bogota";
+datetimeZone7 = "(GMT -04:00) Atlantic Standard (Canada), Santiago, La Paz";
+datetimeZone8 = "(GMT -03:30) Newfoundland";
+datetimeZone9 = "(GMT -03:00) Brasilia, Buenos Aires, Georgetown";
+datetimeZone10 = "(GMT -02:00) South Geogia I.";
+datetimeZone11 = "(GMT -01:00) Reykjavik";
+datetimeZone12 = "(GMT) Greenwich mean time; London, Lisbon, Casablanca";
+datetimeZone13 = "(GMT +01:00) Brussels, Paris, Berlin, Rome, Madrid, Stockholm, Beograd, Praha";
+datetimeZone14 = "(GMT +02:00) Athens, Jerusalem, Cairo, Helsinki";
+datetimeZone15 = "(GMT +03:00) Nairobi, Riyadh, Moscow";
+datetimeZone16 = "(GMT +03:30) Tehran";
+datetimeZone17 = "(GMT +04:00) Baku, Tbilisi, Abu Dhabi, Muscat";
+datetimeZone18 = "(GMT +04:30) Kabul";
+datetimeZone19 = "(GMT +05:00) Islamabad, Karachi, Tashkent";
+datetimeZone20 = "(GMT +05:30) Bombay, Calcutta, Madras, New Delhi";
+datetimeZone21 = "(GMT +06:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone22 = "(GMT +07:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone23 = "(GMT +08:00) Beijing, Singapore, Taipei";
+datetimeZone24 = "(GMT +09:00) Seoul, Yakutsk, Tokyo";
+datetimeZone25 = "(GMT +09:30) Darwin";
+datetimeZone26 = "(GMT +10:00) Guam, Melbourne, Sydney, Port Moresby, Vladivostok";
+datetimeZone27 = "(GMT +11:00) Magadan, Solomon Islands, New Calenonia";
+datetimeZone28 = "(GMT +12:00) Auckland, Wellington, Fiji Islands";
+
+//用户设置界面
+setuser_nomatch="User name or pwd only Numbers or letters";
+UserSetting = "사용자 설정";
+useradmin="관리자";
+userOperator="운영자";
+uservisitor="게스트";
+
+
+
+//邮件设置界面
+MailSetting = "메일 서버 설정";
+MailSender = "보내는 메일 주소";
+MailSmtpSvr = "메일 서버 주소";
+MailSmtpPort = "SMTP 포트";
+MailAuth = "보안 접속";
+MailUser = "사용자 이름";
+MailPwd = "비밀번호";
+MailRecv1 = "받는 메일 주소 1";
+MailRecv2 = "받는 메일 주소 2";
+MailRecv3 = "받는 메일 주소 3";
+MailRecv4 = "받는 메일 주소 4";
+InputMailSender = "보내는 메일 주소를 입력하세요.";
+InputMailServer = "메일 서버 주소를 입력하세요.";
+InputMailRecv = "받는 메일 주소를 입력하세요.";
+MailNone="사용안함";
+MailSSL="SSL";
+MailTLS="TLS";
+
+//报警设置界面
+AlarmSetting="이벤트 녹화 설정";
+alarmMotionEnable = "동작 감지 녹화";
+alarmMotionLevel = "동작 감지 감도";
+alarmExtern = "알람 입력 녹화";
+alarmExternLevel = "트리거 레벨";
+alarmMotionPreset = "프리셋 연동";
+alarmMotionIO = "알람 출력 동작";
+alarmMotionIOLevel = "출력 레벨";
+alarmMail = "메일 전송";
+alarmPicEnable = "스냅샷 업로드";
+alarmPicTimer = "업로드 간격(초)";
+alarm_text_a1 = "High";
+alarm_text_a2 = "Low";
+alarmRecord = "녹화";
+isEnableAlarmAudio="알람 소리";
+alarm_presetno="No";
+
+
+//FTP设置界面
+ftp_uploadtime_prompt="Upload Interval Range 0～3600";
+nochinese="cannot contains chinese";
+FTPServer = "서버 주소" ;
+FTPSetting = "FTP 서버 설정";
+InputFtpServer = "서버 주소를 입력하세요.";
+FTPUploadInterval = "업로드 간격";
+
+//SDCard设置界面
+SdcardSetting="SD 카드 설정";
+sdcard_total="SD 카드 전체 용량";
+sdcard_remain="SD 카드 남은 용량";
+sdcard_input="SD inserted";
+sdcard_output="SD not inserted";
+sdcard_status="SD Status";
+sdcard_recordtime="녹화 시간(분)";
+sdcard_fixedtime_record="녹화 스케쥴";
+sdcard_cover_record="덮어 쓰기";
+sdcard_range="5~120분";
+sdcard_record_starttime="녹화 시작 시간";
+sdcard_record_endtime="녹화 종료 시간";
+sdcard_startendtime_prompt="Start time must less end time";
+sdcard_format="SD 카드 포맷";
+sd_record_audio="녹화 음성";
+
+//Wifi设置界面
+WifiSetting = "무선 설정";
+Loading = "로딩중...";
+NotSetting = "접속안됨";
+WifiList = "무선 네트워크 선택";
+EnterPwd = "Enter Password";
+WillSet = "다음 무선 네트워크에 접속하시겠습니까?";
+wifi_connected="Connect";
+wifi_ssid="SSID";
+wifijoin="Join";
+wifisetsucc="Wifi sets successfully,the device will reboot";
+wifisetfail="Wifi sets failure";
+wifipwdcheck="인증 방식";
+wifipwdopen="개방";
+wifipwdshare="공유";
+wifipwdkekformat="키 방식";
+kekformatAscci="문자열";
+kekformat16="16진수 숫자";
+
+//Drop界面
+MotionLevelHigh="고감도";
+MotionLevelMiddle="중간감도";
+MotionLevelLow="저감도";
+DropListMotionLevel="동작 감지 감도";
+DropListTriggerLevel="트리거 레벨";
+DropListPreset="프리셋 연계";
+DropListOutputLevel="출력 레벨";
+DropListUploadInterval="업로드 간격";
+DropListTimeZone="표준 시간대";
+DropListNtpServer="NTP 서버";
+//四画面
+moreviewall="Four View have already added";
+moreviewadded="이미 추가된 카메라 입니다.";
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

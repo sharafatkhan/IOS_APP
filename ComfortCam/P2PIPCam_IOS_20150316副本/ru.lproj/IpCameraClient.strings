@@ -1,0 +1,340 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+AddCamera  = "Добавить камеру";
+EditCamera  = "Редактировать камеру";
+CameraName  = "Имя";
+IpAddr  = "IpAddr";
+Port  = "Порт";
+User  = "Имя пользователя";
+Pwd  = "Пароль";
+OK  = "OK";
+Cancel  = "Отмена";
+SearchCamera  = "Поиск камеры";
+Back  = "Назад";
+Hide  = "Скрыть";
+Connecting  = "Подключение ...";
+Options  = "Опции";
+Livestream  = "Livestream";
+Edit  = "Редактировать";
+Setting  = "Настройка камеры";
+Delete  = "Удалить";
+DeviceID  = "ID:";
+CameraType  = "ТИП:";
+PPPStatus  = "Статус:";
+CameraID  = "ID Камеры";
+InputCameraName  = "Введите название камеры";
+InputCameraID  = "Введите ID камеры";
+InputUserName  = "Введите имя пользователя";
+InputPassword  = "Введите пароль";
+CameraInfo  = "Информация о камере";
+Done  = "Готово";
+PPPPModeP2P  = "p2p подключен";
+PPPPModeRelay  = "p2p трансляция";
+PPPPModeUnknown  = "Неизвестно";
+PPPPStatusUnknown  = "Неизвестно";
+PPPPStatusConnecting  = "Подключение";
+PPPPStatusInitialing  = "Инициализация";
+PPPPStatusOnline  = "Онлайн";
+PPPPStatusConnectFailed  = "Подключение не удалась";
+PPPPStatusDisconnected  = "Отключен";
+PPPPStatusInvalidID  = "Не верный ID";
+PleaseInputCamreraName  = "Пожалуйста, введите название камеры";
+PleaseInputCameraID  = "Пожалуйста, введите ID камеры";
+PleaseInputUserName  = "Пожалуйста, введите имя пользователя";
+CameraIsNotOnline  = "Автономный режим";
+Version  = "Версия";
+DefaultVideoParams  = "Видео параметры по умолчанию";
+UnknownResolution  = "Неизвестное разрешение";
+PPPPMode  = "Режим:";
+PPPPStatusConnectTimeout  = "Время подключения вышло";
+RelayModeTimeout  = "Режим трансляции, время остается:";
+StrSeconds  = "Секунд";
+ScanDisplayMessage  = "Наведите видеоискатель(объектив) камеры на QR код  для его считывания.";
+ScanQRCode  = "Сканирование QR кода";
+ClickScan  = "Сканировать";
+LiveView  = "Вид";
+Network  = "Сеть";
+WifiSetting  = "Wi-Fi Настройка";
+WifiList  = "Выберите Wi-Fi";
+EnterPwd  = "Введите пароль";
+Loading  = "Загрузка ...";
+WillSet  = "Будет установлен";
+NotSetting  = "Не устанавливается";
+UserSetting  = "Настройки пользователя";
+TakePictureSuccess  = "Успешный прием картинки";
+UserSetting = "Настройки пользователя";
+AlarmSetting = "Настройки тревоги";
+ClockSetting = "Установка времени";
+
+UserName  = "Имя пользователя";
+datetimeDeviceTime  = "Время камера";
+datetimeDeviceTiming  = "Пользователь NTP»";
+datetimeDeviceTimingServer  = "NTP-сервер";
+datetimeDeviceTimezone  = "Часовой пояс";
+datetimeDeviceTimeLocal  = "Синхронизация с местным временем";
+alarmMotionEnable  = "Детектор движения готов";
+alarmMotionLevel  = "Чувствительность детектора движения";
+alarmExtern  = "Вход подключен»";
+alarmExternLevel  = "Сигнал для запуска";
+alarmMotionPreset  = "Предустановка связи";
+alarmMotionIO  = "IO Связь";
+alarmMotionIOLevel  = "Уровень выхода";
+alarmMail  = "Отправить письмо";
+alarmPicEnable  = "Загрузка FTP";
+alarmPicTimer  = "Интервал загрузки FTP";
+
+alarm_text_a1  = "Высокий";
+alarm_text_a2  = "Низкий";
+
+datetimeZone0  = "(GMT -11:00) Острова Мидуэй, Самоа Острова";
+datetimeZone1  = "(GMT -10:00) Гавайи";
+datetimeZone2  = "(GMT -09:00) Аляска Стандартное";
+datetimeZone3  = "(GMT -08:00) Тихоокеанское Стандартное (США и Канада)";
+datetimeZone4  = "(GMT -07:00) Горное (США и Канада)";
+datetimeZone5  = "(GMT -06:00) Центральное зимнее (США и Канада), Мехико";
+datetimeZone6  = "(GMT -05:00) Восточное стандартное (США и Канада), Лима, Богота";
+datetimeZone7  = "(GMT -04:00) Атлантическое (Канада), Сантьяго, Ла-Пас";
+datetimeZone8  = "(GMT -03:30) Ньюфаундленд";
+datetimeZone9  = "(GMT -03:00) Бразилиа, Буэнос-Айрес, Джорджтаун";
+datetimeZone10  = "(GMT -02:00) Южная Джорджия";
+datetimeZone11  = "(GMT -01:00) Рейкьявик";
+datetimeZone12  = "(GMT) Время по Гринвичу, Лондон, Лиссабон, Касабланка";
+datetimeZone13  = "(GMT +01:00) Брюссель, Париж, Берлин, Рим, Мадрид, Стокгольм, Белград, Прага";
+datetimeZone14  = "(GMT +02:00) Афины, Иерусалим, Каир, Хельсинки";
+datetimeZone15  = "(GMT +03:00) Найроби, Эр-Рияд, Москва";
+datetimeZone16  = "(GMT +03:30) Тегеран";
+datetimeZone17  = "(GMT +04:00) Баку, Тбилиси, Абу-Даби, Мускат»";
+datetimeZone18  = "(GMT +04:30) Кабул";
+datetimeZone19  = "(GMT +05:00) Исламабад, Карачи, Ташкент";
+datetimeZone20  = "(GMT +05:30) Бомбей, Калькутта, Мадрас, Нью-Дели";
+datetimeZone21  = "(GMT +06:00) Астана, Алматы, Дакка, Коломбо";
+datetimeZone22  = "(GMT +07:00) Астана, Алматы, Дакка, Коломбо";
+datetimeZone23  = "(GMT +08:00) Пекин, Сингапур, Тайбэй";
+datetimeZone24  = "(GMT +09:00) Сеул, Якутск, Токио";
+datetimeZone25  = "(GMT +09:30) Дарвин";
+datetimeZone26  = "(GMT +10:00) Гуам, Мельбурн, Сидней, Порт-Морсби, Владивосток";
+datetimeZone27  = "(GMT +11:00) Магадан, Соломоновы Острова, Новая Каледония";
+datetimeZone28  = "(GMT +12:00) Окленд, Веллингтон, Фиджи";
+
+MotionLevelHigh = "Высокий";
+MotionLevelMiddle = "Нормальный";
+MotionLevelLow = "Низкий";
+DropListMotionLevel = "Уровень движения";
+DropListTriggerLevel = "Уровень запуска";
+DropListPreset = "Предустановки";
+DropListOutputLevel = "Уровень выхода";
+DropListUploadInterval = "Добавить Интервал";
+DropListTimeZone = "Часовой пояс";
+DropListNtpServer = "NTP-сервер";
+
+LAN  = "Сеть";
+LANSearch  = "Поиск сети";
+
+Alarm  = "Тревога";
+Picture  = "Изображение";
+Record  = "Запись";
+Local  = "Локальный";
+Remote  = "Удаленный";
+LocalPic  = "Локальные изображения";
+SavePictureSuccess  = "Изображение сохранено в альбом";
+
+Message = "Сообщение";
+DeletePicture  = "Удалить изображение?";
+TouchAddCamera  = "Добавить камеру";
+
+FTPSetting  = "Настройки FTP";
+FTPServer  = "Сервер";
+FTPUser  = "Пользователь";
+FTPPwd  = "Пароль";
+FTPPort  = "Порт";
+FTPUploadInterval  = "Интервал загрузки";
+InputFtpServer  = "Введите FTP сервер";
+InputFtpUser  = "Введите имя пользователя";
+InputFtpPwd  = "Введите пароль";
+MailSetting  = "Настройка почты​​";
+MailSender  = "Отправитель";
+MailSmtpSvr  = "Сервер SMTP";
+MailSmtpPort  = "Порт SMTP";
+MailAuth  = "Авт";
+MailUser  = "Имя пользователя";
+MailPwd  = "Пароль";
+MailRecv1  = "Получатель1";
+MailRecv2  = "Получатель2";
+MailRecv3  = "Получатель3";
+MailRecv4  = "Получатель4";
+InputMailSender  = "Введите почту отправителя";
+InputMailServer  = "Введите почтовый сервер";
+InputMailUser  = "Введите имя пользователя";
+InputMailPwd  = "Введите пароль";
+InputMailRecv  = "Введите почту получателя";
+alarmRecord  = "Запись по тревоге";
+
+
+cameraNumOut = "Количество ваших камер превысило лимит";
+ingInitCamera = "Инициализация камеры";
+selectAll = "Выбрать все";
+reserveSelect = "Резервный выбор";
+useradmin = "Администратор";
+userOperator = "Посетитель";
+noadmin = "Не Администратор или плохая сеть";
+
+
+SdcardSetting = "SD Card Настройка";
+sdcard_total = "Всего SD";
+sdcard_remain = "SD остаток";
+sdcard_input = "SD вставлена";
+sdcard_output = "SD не вставлена";
+sdcard_status = "SD Статус";
+sdcard_recordtime = "Время записи (минуты)";
+sdcard_fixedtime_record = "Запись по таймеру";
+sdcard_cover_record = "Записано";
+sdcard_range = "Диапазон 5-120";
+
+play_stop_record_p = "Пожалуйста, сначала остановите запись";
+record_filename = "Имя файла";
+record_filetime = "Время записи";
+PPPPStatusInvalidUserPwd = "Не верное имя пользователя или пароль";
+filesize = "Размер файла";
+
+
+about_soft_information = "Информация о программе";
+about_server_information = "Информация о сервере";
+about_default_server_addr = "Восстановить адрес сервера по умолчанию";
+about_default_prompt = "Восстановление сервера вступит в силу после перезагрузки";
+about_server_finish = "Перезагрузка сервера вступит в силу после перезагрузки";
+about_server_prompt = "Введите адрес сервера";
+
+ftp_uploadtime_prompt = "Добавить диапазон 0-3600";
+preset_call = "Вызов";
+preset_set = "Установка";
+preset = "Предустановка";
+
+
+setuser_nomatch = "Имя пользователя или пароль должны содержать буквы или числа";
+
+inputCameraIp = "Введите IP адрес или имя домена";
+inputCameraPort = "Введите  порт";
+cameraIp = "IP адрес или домен";
+cameraPort = "Порт";
+pleaseInputcameraIp = "Введите IP камеры или домен";
+pleaseInputcameraPort = "Ведите порт камеры";
+
+play_mode="Режим";
+play_goodvalue="Высокое разрешение";
+play_fastspeed="Плавность";
+play_goodfast="Нормально";
+play_frame = "Рамка";
+
+play_recording = "Запись…";
+
+addcamera_prompt = "Камера существует";
+nouserorloginuser = "Данное имя не может быть использовано";
+nopwd = "Данный пароль не может быть использован";
+
+moreviewall = "Четыре окна для просмотра уже добавлены";
+moreviewadded = "Камера добавлена";
+p2pmoreview = "Четыре окна для P2P";
+fourviews = "Четыре окна";
+
+
+ddnscameraisofflineornolan = "Запрос не корректен, возможно камера или телефон подключены к другой сети";
+
+wifipwdcheck = "Безопасный режим";
+wifipwdopen = "Открыть";
+wifipwdshare = "Распределить";
+wifipwdkekformat = "Формат ключа";
+kekformatAscci = "ASCII";
+kekformat16 = "Hex";
+
+nochinese = "Не может содержать китайский";
+initPicPrompt = "Загрузка изображения";
+piclisteditprompt = "Изображение загружается";
+moreviewinit = "Камера определяется, пожалуйста, подождите";
+
+play_watchmode = "Режим просмотра";
+addcamera_idnotchinese = "ID не может содержать китайский";
+sdcard_record_starttime = "Начало записи";
+sdcard_record_endtime = "Завершение записи";
+sdcard_startendtime_prompt = "Время начала должно быть раньше времени окончания";
+
+
+sdcard_format = "Формат SD";
+
+versionInfo = "Информация о версии";
+versionNew = "Новая версия";
+versionIgnore = "Не обновлять версию";
+versionUpdate = "Обновить сейчас";
+versionlaterUpdate = "Обновить позже";
+
+wifijoin = "Подключиться";
+wifisetsucc = "Успешное подключение по WiFi, устройство будет перезагружено";
+wifisetfail = "Ошибка при подключении WiFi";
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+wifijoin="Join";
+wifisetsucc="Wifi sets successfully,the device will reboot";
+wifisetfail="Wifi sets failure";
+
+isEnableAlarmAudio="Whether to open the alarm sounds";
+sd_record_audio="Record Audio";
+
+setttingsrestart="Перезагрузка камеры";
+restartdeciveprompt="Предупреждения";
+restartdecivemessage="Устройство не будет использовано во время перезагруки.";
+devicerestarting="Камера перезагружается…";
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+alarmview_title="Сигнал тревоги";
+alerm_push_log = "Детали";
+alerm_motion_alarm="Сигнал датчика движения";
+alerm_gpio_alarm="Сигнал GPIO";
+About = "О приложении";
+about_version="Версия";
+about_internalversion="Внутренняя версия";
+
+play_alarmopen="On Alarm";
+play_alarmclose="Off Alarm";
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

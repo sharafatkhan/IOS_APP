@@ -1,0 +1,370 @@
+/* 
+   IpCameraClient.strings
+   IpCameraClient
+
+   Created by jiyonglong on 12-5-2.
+   Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+DaylightSavingTime="Daylight saving time";
+
+//通用
+Edit = "Edit";
+Done =  "Done";
+Delete = "Delete";
+Back = "Back";
+Cancel = "Cancel";
+Message= "Warning";
+IpAddr = "IP Addr";
+Port = "Port";
+User = "Username";
+Pwd = "Password";
+selectAll="Select All";
+reserveSelect="Reserve Select";
+OK = "Ok";
+//摄像机界面
+IPCamera = "Camera";
+fourviews="Four Views";
+TouchAddCamera = "Add Camera";
+cameraNumOut="Numbers fo your cameras is upper limit";
+ingInitCamera="Camera is initializing";
+
+
+PPPPStatusUnknown = "unknown";
+PPPPStatusConnecting = "connecting";
+PPPPStatusInitialing = "initialing";
+PPPPStatusOnline = "Online";
+CameraIsNotOnline = "Offline";
+PPPPStatusInvalidUserPwd="Invalid User or Pwd";
+PPPPStatusConnectFailed = "connect failed";
+PPPPStatusDisconnected = "disconnected";
+PPPPStatusInvalidID = "invalid id";
+PPPPStatusConnectTimeout = "connect timeout";
+noadmin="No Administrator or bad network";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+versionInfo="Version information";
+versionNew="";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+ddnscameraisofflineornolan="Request failed or mobile phone and camera connects difference network";
+//添加摄像机界面
+AddCamera = "Add Camera";
+EditCamera = "Edit Camera" ;
+CameraName = "Name";
+CameraID = "CameraID" ;
+InputCameraName = "Input Camera Name";
+InputCameraID = "Input Camera ID";
+InputUserName = "Input User Name";
+InputPassword = "Input Password";
+CameraInfo = "Camera Information";
+inputCameraIp="Input the IP or domain name";
+inputCameraPort="Input Port";
+cameraIp="IP Or Domain";
+cameraPort="Port";
+pleaseInputcameraIp="Please input Camera Ip or domain";
+pleaseInputcameraPort="Please input Camera Port";
+PleaseInputCamreraName = "please input camera name";
+PleaseInputCameraID = "please input camera id";
+PleaseInputUserName = "please input user name";
+ScanQRCode = "Scan QR code";
+LANSearch = "Search network";
+
+addcamera_idnotchinese="ID can not contains Chinese";
+addcamera_prompt="This camera exists";
+nouserorloginuser="Username can not be user or loginuser";
+nopwd="Password can not ben pwd";
+//局域网搜索摄像机界面
+SearchCamera = "Search Camera" ;
+//视频观看界面
+DefaultVideoParams = "default video param";
+play_stop_record_p="Please first stop record video";
+preset_call="Call";
+preset_set="Set";
+preset="Preset";
+play_mode="Mode";
+play_goodvalue="High Definition";
+play_fastspeed="Fluency";
+play_goodfast="Normal";
+play_recording="Recording...";
+TakePictureSuccess = "take picture success";
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light  ";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+
+//图片界面
+LocalPic = "Pictures";
+//图片日期界面
+//图片列表界面
+initPicPrompt="Picture Loading...";
+piclisteditprompt="Pictures Loading,tap edit button in a moment";
+//图片观看界面
+initVidPrompt="Vidoe Loading...";
+picshow_delete="Do you want to delete image?";
+picshow_share="Do you want to share image?";
+picshow_album="Do you want to save image to album?";
+SavePictureSuccess = "Save picture to album success" ;
+
+
+
+//录像界面
+Record = "Record";
+Local = "Local";
+Remote = "Remote";
+//录像日期界面
+//录像列表界面
+//录像观看界面
+//远程录像列表界面
+//远程录像观看界面
+//关于界面
+About = "About";
+about_version="Version";
+about_internalversion="InternalVersion";
+about_receiverpush="Receive alarm push";
+//设置界面
+setttingsrestart="Reboot camera";
+restartdeciveprompt="Warning";
+restartdecivemessage="Device will not be operational during reboot.";
+devicerestarting="Camera rebooting…";
+
+
+//日期设置界面
+ClockSetting="Time Settings";
+datetimeDeviceTime = "Camera time";
+datetimeDeviceTiming = "Use automatic time zone";
+datetimeDeviceTimingServer = "Time Server";
+datetimeDeviceTimezone = "Time Zone";
+datetimeDeviceTimeLocal = "Use phone time";
+datetime_jan="Jan";
+datetime_Feb="Feb";
+datetime_Mar="Mar";
+datetime_Apr="Apr";
+datetime_May="May";
+datetime_Jun="Jun";
+datetime_Jul="Jul";
+datetime_Aug="Aug";
+datetime_Sept="Sept";
+datetime_Oct="Oct";
+datetime_Nov="Nov";
+datetime_Dec="Dec";
+
+datetime_Sun="Sun";
+datetime_Mon="Mon";
+datetime_Tue="Tue";
+datetime_Wed="Wed";
+datetime_Thu="Thu";
+datetime_Fri="Fri";
+datetime_Sat="Sat";
+
+datetimeZone0 = "(GMT -11:00) Midway Islands, Samoa Islands";
+datetimeZone1 = "(GMT -10:00) Hawaii";
+datetimeZone2 = "(GMT -09:00) Alaska Standard";
+datetimeZone3 = "(GMT -08:00) Pacific Standard(USA and Canada)";
+datetimeZone4 = "(GMT -07:00) Mountain Standard(USA and Canada)";
+datetimeZone5 = "(GMT -06:00) Central Standard(USA and Canada), Mexico City";
+datetimeZone6 = "(GMT -05:00) Eastern Standard(USA and Canada), Lima, Bogota";
+datetimeZone7 = "(GMT -04:00) Atlantic Standard (Canada), Santiago, La Paz";
+datetimeZone8 = "(GMT -03:30) Newfoundland";
+datetimeZone9 = "(GMT -03:00) Brasilia, Buenos Aires, Georgetown";
+datetimeZone10 = "(GMT -02:00) South Geogia I.";
+datetimeZone11 = "(GMT -01:00) Reykjavik";
+datetimeZone12 = "(GMT) Greenwich mean time; London, Lisbon, Casablanca";
+datetimeZone13 = "(GMT +01:00) Brussels, Paris, Berlin, Rome, Madrid, Stockholm, Beograd, Praha";
+datetimeZone14 = "(GMT +02:00) Athens, Jerusalem, Cairo, Helsinki";
+datetimeZone15 = "(GMT +03:00) Nairobi, Riyadh, Moscow";
+datetimeZone16 = "(GMT +03:30) Tehran";
+datetimeZone17 = "(GMT +04:00) Baku, Tbilisi, Abu Dhabi, Muscat";
+datetimeZone18 = "(GMT +04:30) Kabul";
+datetimeZone19 = "(GMT +05:00) Islamabad, Karachi, Tashkent";
+datetimeZone20 = "(GMT +05:30) Bombay, Calcutta, Madras, New Delhi";
+datetimeZone21 = "(GMT +06:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone22 = "(GMT +07:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone23 = "(GMT +08:00) Beijing, Singapore, Taipei";
+datetimeZone24 = "(GMT +09:00) Seoul, Yakutsk, Tokyo";
+datetimeZone25 = "(GMT +09:30) Darwin";
+datetimeZone26 = "(GMT +10:00) Guam, Melbourne, Sydney, Port Moresby, Vladivostok";
+datetimeZone27 = "(GMT +11:00) Magadan, Solomon Islands, New Calenonia";
+datetimeZone28 = "(GMT +12:00) Auckland, Wellington, Fiji Islands";
+
+//用户设置界面
+setuser_nomatch="User name or pwd only Numbers or letters";
+UserSetting = "User Settings";
+useradmin="Administrator";
+userOperator="Operator";
+uservisitor="Visitor";
+
+
+
+//邮件设置界面
+MailSetting = "Mail Settings";
+MailSender = "Sender";
+MailSmtpSvr = "SMTP Server";
+MailSmtpPort = "SMTP Port";
+MailAuth = "Need Authentication";
+MailUser = "Email";
+MailPwd = "Passowrd";
+MailRecv1 = "Email Recipient1";
+MailRecv2 = "Email Recipient2";
+MailRecv3 = "Email Recipient3";
+MailRecv4 = "Email Recipient4";
+InputMailSender = "input mail sender";
+InputMailServer = "input mail server";
+InputMailRecv = "input mail receiver";
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+
+//报警设置界面
+AlarmSetting="Alarm Settings";
+alarmMotionEnable = "Motion detector armed";
+alarmMotionLevel = "Motion detect sensibility";
+alarmExtern = "Set external alarm";
+alarmExternLevel = "Alarm trigger level";
+alarmMotionPreset = "Go to preset position on alarm";
+alarmMotionIO = "IO Linkage";
+alarmMotionIOLevel = "Output Level";
+alarmMail = "Send Email";
+alarmPicEnable = "FTP Upload";
+alarmPicTimer = "FTP Upload Interval";
+alarm_text_a1 = "High";
+alarm_text_a2 = "Low";
+alarmRecord = "Alarm Record";
+isEnableAlarmAudio="Enable audio recording";
+alarm_presetno="No";
+//FTP设置界面
+ftp_uploadtime_prompt="Upload Interval Range 0～3600";
+nochinese="cannot contains chinese";
+FTPServer = "Server";
+FTPSetting = "FTP Settings";
+InputFtpServer = "Input Ftp Server";
+FTPUploadInterval = "Upload Interval";
+
+//SDCard设置界面
+SdcardSetting="SDCard Settings";
+sdcard_total="SD Total(M)";
+sdcard_remain="SD Remainder(M)";
+sdcard_input="SD inserted";
+sdcard_output="SD not inserted";
+sdcard_status="SD Status";
+sdcard_recordtime="Record time(minute)";
+sdcard_fixedtime_record="Timer Recording";
+sdcard_cover_record="Record Coverage";
+sdcard_range="Range 5-120";
+sdcard_record_starttime="Record start";
+sdcard_record_endtime="Record end";
+sdcard_startendtime_prompt="Start time must less end time";
+sdcard_format="SD Format";
+sd_record_audio="Record Audio";
+
+//Wifi设置界面
+WifiSetting = "WIFI Settings";
+Loading = "Loading...";
+WifiList = "Choose WIFI";
+EnterPwd = "Enter Password";
+WillSet = "Will set";
+NotSetting = "not setting";
+wifi_connected="Connected";
+wifi_connectedfail="Connect Failed";
+wifi_ssid="SSID";
+wifijoin="Join";
+wifisetsucc="WiFi settings successful, camera will reboot";
+wifisetfail="WiFi settings failed";
+wifipwdcheck="Safe Mode";
+wifipwdopen="Open";
+wifipwdshare="Share";
+wifipwdkekformat="Key Format";
+kekformatAscci="ASCII";
+kekformat16="Hex";
+
+//Drop界面
+MotionLevelHigh="high";
+MotionLevelMiddle="normal";
+MotionLevelLow="low";
+DropListMotionLevel="Motion Level";
+DropListTriggerLevel="Trigger Level";
+DropListPreset="Preset";
+DropListOutputLevel="Output Level";
+DropListUploadInterval="Upload Interval";
+DropListTimeZone="Time Zone";
+DropListNtpServer="NTP Server";
+//四画面
+moreviewall="Four View have already added";
+moreviewadded="The camera has bean added";
+
+sdformat_prompt="Formatting,please wait";
+
+refresh_toomuch="Refresh too frequently";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";
+
+
+// New controlls data
+
+Change_Password = "Change Password";
+Warning =  "Warning";
+OK = "OK";
+Forget_Password = "Forget Password";
+fill_in_email = "Please fill in email address";
+fill_in_old_password = "Please fill in old password";
+fill_in_new_password = "Please fill in new password";
+fill_valid_email = "Please fill valid email";
+insert_email = "Please insert email";
+not_support_inApp = "Your device does not support inApp Purchase.";
+Error2 = "Error !!!";
+In_App_error = "In App purchase product fetching error.";
+Error1 = "Error";
+fill_in_username = "Please fill in username";
+fill_in_password = "Please fill in password";
+Sign_Up = "Sign Up";
+successfully_registered = "You have successfully registered";
+Service = "Service";
+subscribed_successfully = "You are subscribed successfully.";
+Not_now = "Not now";
+Back = "Back";
+Try_ComfortCam = "Try ComfortCam   Plus";
+remote_viewing = "(remote viewing access)";
+Free = "Free for 30 Days";
+Choose = "Choose the pricing option below that works best for you";
+Benefits = "Benefits of ComfortCam   Plus";
+ComfortCam_Plus = "ComfortCam Plus brings your child to you no matter where you are.”\n\nThe remote viewing access allows you to see, hear, and talk to your baby on your smartphone and tablet.\n\nIf you are not completely satisfied, cancel anytime and still enjoy all the benefits of the ComfortCam app and camera within your home.";
+Monthly_service = "*Monthly service can be cancelled anytime. Yearly service must be cancelled within 30 days of purchase to receive a refund. http://comfortcam.com/terms-of-use/";
+Cancel = "Cancel Anytime*";
+
+email = "Email Address";
+new_password = "New password";
+old_password = "Old password";
+change_pwd = "Change Password";
+Send = "Send";
+hintemail = "Email";
+hintPassword = "Password";
+rememberme = "Remember Me";
+forgotpass = "Forgot Password?";
+login = "Login";
+signup = "Sign up";
+emailaddress = "Email Address";
+confirmemailaddress = "Confirm Email Address";
+confirmpassword = "Confirm Password";
+firstname = "First Name";
+lastname = "Last Name";
+register  = "Register";
+phonenumber = "Phone Number";
+mandatory = "All fields are mandatory!";
+
+renew = "Please renew your subscription";
+inApp = "Looking to access your camera remotely? Try ComfortCam Plus";
+freeDays = "Free for 30 Days";

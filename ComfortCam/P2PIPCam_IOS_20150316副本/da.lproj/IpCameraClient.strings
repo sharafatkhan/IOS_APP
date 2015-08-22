@@ -1,0 +1,330 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+
+//通用
+Edit = "Ændre";
+Done =  "Færdig";
+Delete = "Slet";
+Back = "Tilbage";
+Cancel = "Fortryd";
+Message= "Advarsel";
+IpAddr = "IP Addr";
+Port = "Port";
+User = "Brugernavn";
+Pwd = "Password";
+selectAll="Vælg alt";
+reserveSelect="Reserver - vælg";
+OK = "OK";
+//摄像机界面
+IPCamera = "Kamera";
+fourviews="Fire visninger";
+TouchAddCamera = "Tilføj kamera";
+cameraNumOut="For mange kameraer tilsluttet";
+ingInitCamera="Kamera starter op…";
+
+
+PPPPStatusUnknown = "Ukendt";
+PPPPStatusConnecting = "Tilslutter";
+PPPPStatusInitialing = "Opstarter…";
+PPPPStatusOnline = "Online";
+CameraIsNotOnline = "Offline";
+PPPPStatusInvalidUserPwd="forkert Bruger eller password";
+PPPPStatusConnectFailed = "Tilslutningsfejl";
+PPPPStatusDisconnected = "Afbrudt";
+PPPPStatusInvalidID = "Forkert ID";
+PPPPStatusConnectTimeout = "Forbindelse timout";
+noadmin="Ingen administrator eller netværk";
+PPPPStatusNotWatchTime="Ingen visning";
+
+
+versionInfo="Version info";
+versionNew="";
+versionIgnore="Glem denne version";
+versionUpdate="Opdater omgående";
+versionlaterUpdate="Opdater senere";
+
+ddnscameraisofflineornolan="Anmodning mislykkes - mobiltelefon og kamera er ikke på samme netværk";
+//添加摄像机界面
+AddCamera = "Tilføj kamera";
+EditCamera = "Ændre kamera" ;
+CameraName = "Navn";
+CameraID = "Kamera ID" ;
+InputCameraName = "indtast kamera navn";
+InputCameraID = "indtast kamera ID";
+InputUserName = "Indtast kamera navn";
+InputPassword = "Indtast password";
+CameraInfo = "Kamera information";
+inputCameraIp="indtast IP eller domain navn";
+inputCameraPort="Indtast pprt";
+cameraIp="IP eller domain";
+cameraPort="Port";
+pleaseInputcameraIp="Indtast venligts IP eller domain";
+pleaseInputcameraPort="Indtast venligst kamera port";
+PleaseInputCamreraName = "Indtast venligst kamera navn";
+PleaseInputCameraID = "Indtast venligst Kamera ID";
+PleaseInputUserName = "Indtast venligst brugernavn";
+ScanQRCode = "Scan QR kode";
+LANSearch = "Søg netværk";
+
+addcamera_idnotchinese="Ingen special tegn i ID";
+addcamera_prompt="Kamera eksisterer allerede";
+nouserorloginuser="Brugernavn må IKKE være bruger eller brugerlogin";
+nopwd="Password må IKKE være Password";
+//局域网搜索摄像机界面
+SearchCamera = "Søg Kamera" ;
+//视频观看界面
+DefaultVideoParams = "Standard video settings";
+play_stop_record_p="Stop venligst videooptagelse";
+preset_call="Opkald";
+preset_set="Indstil";
+preset="Pre instillet";
+play_mode="Tilstand";
+play_goodvalue="High Definition; Høj opløsning";
+play_fastspeed="Kører";
+play_goodfast="Normal";
+play_recording="Optager...";
+TakePictureSuccess = "billed taget";
+play_alarmopen="Åben alarm  ";
+play_alarmclose="Luk alarm  ";
+play_ledopen="Åben Led Light  ";
+play_ledclose="Luk Led Light  ";
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm info";
+alerm_motion_alarm="Bevægelse alarm";
+alerm_gpio_alarm="GPIO Alarm";
+
+
+//图片界面
+LocalPic = "Billeder";
+//图片日期界面
+//图片列表界面
+initPicPrompt="Billede indlæses…";
+piclisteditprompt="Billede indlæses, tryk edit knap om et øjeblik";
+//图片观看界面
+picshow_delete="Vil du slette billede?";
+picshow_share="Vil du dele billede?";
+picshow_album="Vil du gemme billede i album?";
+SavePictureSuccess = "Gem billede i album udført" ;
+
+
+
+//录像界面
+Record = "Optag";
+Local = "Lokalt";
+Remote = "Fjermbetjent";
+//录像日期界面
+//录像列表界面
+//录像观看界面
+//远程录像列表界面
+//远程录像观看界面
+//关于界面
+About = "Info";
+about_version="Version";
+about_internalversion="Intern version";
+//设置界面
+setttingsrestart="Genstart kamera";
+restartdeciveprompt="Advarsel";
+restartdecivemessage="Enheden vil IKKE virke under genstart";
+devicerestarting="Kamera genstarter";
+
+
+//日期设置界面
+ClockSetting="Tidsinstillinger";
+datetimeDeviceTime = "Kameratid";
+datetimeDeviceTiming = "Anvend automastisk tidszone";
+datetimeDeviceTimingServer = "Tid server";
+datetimeDeviceTimezone = "Tidszone";
+datetimeDeviceTimeLocal = "Anvend Ipone’s tidssettings";
+datetime_jan="Jan";
+datetime_Feb="Feb";
+datetime_Mar="Mar";
+datetime_Apr="Apr";
+datetime_May="Maj";
+datetime_Jun="Juni";
+datetime_Jul="Juli";
+datetime_Aug="Aug";
+datetime_Sept="Sept";
+datetime_Oct="Okt";
+datetime_Nov="Nov";
+datetime_Dec="Dec";
+
+datetime_Sun="Søn";
+datetime_Mon="Man";
+datetime_Tue="Tirs";
+datetime_Wed="Ons";
+datetime_Thu="Tors";
+datetime_Fri="Fri";
+datetime_Sat="Lør";
+
+datetimeZone0 = "(GMT -11:00) Midway Islands, Samoa Islands";
+datetimeZone1 = "(GMT -10:00) Hawaii";
+datetimeZone2 = "(GMT -09:00) Alaska Standard";
+datetimeZone3 = "(GMT -08:00) Pacific Standard(USA and Canada)";
+datetimeZone4 = "(GMT -07:00) Mountain Standard(USA and Canada)";
+datetimeZone5 = "(GMT -06:00) Central Standard(USA and Canada), Mexico City";
+datetimeZone6 = "(GMT -05:00) Eastern Standard(USA and Canada), Lima, Bogota";
+datetimeZone7 = "(GMT -04:00) Atlantic Standard (Canada), Santiago, La Paz";
+datetimeZone8 = "(GMT -03:30) Newfoundland";
+datetimeZone9 = "(GMT -03:00) Brasilia, Buenos Aires, Georgetown";
+datetimeZone10 = "(GMT -02:00) South Geogia I.";
+datetimeZone11 = "(GMT -01:00) Reykjavik";
+datetimeZone12 = "(GMT) Greenwich mean time; London, Lisbon, Casablanca";
+datetimeZone13 = "(GMT +01:00) Brussels, Paris, Berlin, Rome, Madrid, Stockholm, Beograd, Praha";
+datetimeZone14 = "(GMT +02:00) Athens, Jerusalem, Cairo, Helsinki";
+datetimeZone15 = "(GMT +03:00) Nairobi, Riyadh, Moscow";
+datetimeZone16 = "(GMT +03:30) Tehran";
+datetimeZone17 = "(GMT +04:00) Baku, Tbilisi, Abu Dhabi, Muscat";
+datetimeZone18 = "(GMT +04:30) Kabul";
+datetimeZone19 = "(GMT +05:00) Islamabad, Karachi, Tashkent";
+datetimeZone20 = "(GMT +05:30) Bombay, Calcutta, Madras, New Delhi";
+datetimeZone21 = "(GMT +06:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone22 = "(GMT +07:00) Astana, Almaty, Dhaka, Colombo";
+datetimeZone23 = "(GMT +08:00) Beijing, Singapore, Taipei";
+datetimeZone24 = "(GMT +09:00) Seoul, Yakutsk, Tokyo";
+datetimeZone25 = "(GMT +09:30) Darwin";
+datetimeZone26 = "(GMT +10:00) Guam, Melbourne, Sydney, Port Moresby, Vladivostok";
+datetimeZone27 = "(GMT +11:00) Magadan, Solomon Islands, New Calenonia";
+datetimeZone28 = "(GMT +12:00) Auckland, Wellington, Fiji Islands";
+
+//用户设置界面
+setuser_nomatch="Brugernavn og password – Anvend KUN bogstaver eller tal";
+UserSetting = "Bruger indstillinger";
+useradmin="Administrator";
+userOperator="Operatør";
+uservisitor="Gæst";
+
+
+
+//邮件设置界面
+MailSetting = "Mail indstillinger";
+MailSender = "Send";
+MailSmtpSvr = "SMTP Server";
+MailSmtpPort = "SMTP Port";
+MailAuth = "Behøver godkendelse";
+MailUser = "Email";
+MailPwd = "Password";
+MailRecv1 = "Email modtager1";
+MailRecv2 = "Email modtager2";
+MailRecv3 = "Email modtager3";
+MailRecv4 = "Email modtager4";
+InputMailSender = "Indtast mail afsender";
+InputMailServer = "Indtast mail sserver";
+InputMailRecv = "Indtast mail modtager";
+MailNone="Ingen";
+MailSSL="SSL";
+MailTLS="TLS";
+
+//报警设置界面
+AlarmSetting="Alarm indstillinger";
+alarmMotionEnable = "Bevægelsessensor tilsluttet";
+alarmMotionLevel = "Bevægelsessensor følsomhed";
+alarmExtern = "Set ekstern alarm";
+alarmExternLevel = "Alarm trigger niveau";
+alarmMotionPreset = "Gå til forudindstillet indstilling ved alarm";
+alarmMotionIO = "IO linkage";
+alarmMotionIOLevel = "Output level";
+alarmMail = "Send Email";
+alarmPicEnable = "FTP Upload";
+alarmPicTimer = "FTP Upload interval";
+alarm_text_a1 = "Høj";˙
+alarm_text_a2 = "lav";
+alarmRecord = "Alarm optagelse";
+isEnableAlarmAudio="Tilslut lydoptagelse";
+alarm_presetno="Nej";
+//FTP设置界面
+ftp_uploadtime_prompt="Upload interval 0-3600";
+nochinese="Ingen specialtegn";
+FTPServer = "Server";
+FTPSetting = "FTP indstillinger";
+InputFtpServer = "Indtast FTP server";
+FTPUploadInterval = "Upload interval";
+
+//SDCard设置界面
+SdcardSetting="SD kort indstillinger";
+sdcard_total="SD totalt (M)";
+sdcard_remain="SD påmindelse (M)";
+sdcard_input="SD isat";
+sdcard_output="Ingen SD";
+sdcard_status="SD status";
+sdcard_recordtime="Optagetid (minut)";
+sdcard_fixedtime_record="Timer optagelse";
+sdcard_cover_record="Optage dækning";
+sdcard_range="Interval 5-120";
+sdcard_record_starttime="Start optag";
+sdcard_record_endtime="Stop optag";
+sdcard_startendtime_prompt="Optag tid";
+sdcard_format="SD format";
+sd_record_audio="Optag lyd";
+
+//Wifi设置界面
+WifiSetting = "WIFI indstillinger";
+Loading = "Indlæser…";
+WifiList = "Vælg WIFI";
+EnterPwd = "Indtast password";
+WillSet = "Will set";
+NotSetting = "Ingen indstillinger";
+wifi_connected="Tilslut";
+wifi_connectedfail="Fejl i tilslutning";
+wifi_ssid="SSID";
+wifijoin="Tilslut";
+wifisetsucc="WIFI tilsluttet – kamera genstarter";
+wifisetfail="WIFI indstillingfejl";
+wifipwdcheck="Fejlsikret tilstand";
+wifipwdopen="Åben";
+wifipwdshare="Del";
+wifipwdkekformat="Format";
+kekformatAscci="ASCII";
+kekformat16="Hex";
+
+//Drop界面
+MotionLevelHigh="Høj";
+MotionLevelMiddle="Hormal";
+MotionLevelLow="Lav";
+DropListMotionLevel="Bevægelses level";
+DropListTriggerLevel="Trigger level";
+DropListPreset="Preset";
+DropListOutputLevel="Output level";
+DropListUploadInterval="Upload interval";
+DropListTimeZone="Tidszone";
+DropListNtpServer="NTP server";
+//四画面
+moreviewall="Fire “Views” allerede tilføjet";
+moreviewadded="Kameraet er tilføjet";
+
+sdformat_prompt="Formaterer – vent venligst";
+
+//观看时间设置
+lookvideo_time="Se tidsindstilling";
+lookvideo_Durationferiod="Periodens varighed";
+lookvideo_timeondays="Tid på dagen";
+lookvideo_fromtime="Fra tidspunkt:";
+lookvideo_totime="Til Tidspunkt:";
+lookvideo_fromdate="Fra dato:";
+lookvideo_todate="Til dato:";
+lookvideo_sunday="Søndag";
+lookvideo_monday="Mandag";
+lookvideo_Tuesday="Tirsdag";
+lookvideo_Wednesday="Onsdag";
+lookvideo_Thursday="Torsdag";
+lookvideo_Friday="Fridag";
+lookvideo_Saturday="Lørdag";
+lookvideo_timehour_place="0-23";
+lookvideo_timemin_place="0-59";
+
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

@@ -1,0 +1,332 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+IPCamera = "IP camera";
+AddCamera = "Camera toevoegen";
+EditCamera = "Camera aanpassen" ;
+CameraName = "Camera naam";
+IpAddr = "IP adres";
+Port = "Poort";
+User = "Gebr.";
+Pwd = "WW";
+OK = "OK";
+Cancel = "Annuleren";
+SearchCamera = "Zoek camera" ;
+Back = "Terug";
+Hide = "Verbergen";
+Connecting = "Verbinden...";
+Options = "Opties";
+Livestream = "Live stream";
+Edit = "Aanpassen";
+Setting = "Instellingen";
+Delete = "Verwijderen";
+DeviceID = "ID:";
+CameraType = "Camera type:";
+PPPStatus = "PPP Status:" ;
+CameraID = "Camera ID" ;
+InputCameraName = "Vul hier camera naam in";
+InputCameraID = "Vul hier camera ID in";
+InputUserName = "Vul hier camera gebruikersnaam. in";
+InputPassword = "Vul hier camera wachtwoord in";
+CameraInfo = "Camera info";
+Done =  "Klaar";
+PPPPModeP2P = "p2p modus";
+PPPPModeRelay = "p2p omleiding modus";
+PPPPModeUnknown = "Modus onbekend";
+PPPPStatusUnknown = "Onbekend";
+PPPPStatusConnecting = "Verbinden";
+PPPPStatusInitialing = "initialiseren";
+PPPPStatusOnline = "On-Line";
+PPPPStatusConnectFailed = "verbinden mislukt";
+PPPPStatusDisconnected = "Verbinding verbroken";
+PPPPStatusInvalidID = "Ongeldig ID";
+PleaseInputCamreraName = "Vul hier camera naam in";
+PleaseInputCameraID = "Vul hier camera ID in";
+PleaseInputUserName = "Vul hier gebruikersnaam in";
+CameraIsNotOnline = "Camera is Off-line";
+Version = "Versie";
+DefaultVideoParams = "Standaard video instellingen";
+UnknownResolution = "Onbekende resolutie";
+PPPPMode = "PPPP modus:";
+PPPPStatusConnectTimeout = "Verbinding is onderbroken";
+RelayModeTimeout = "Omleiding verbinding is onderbroken:";
+StrSeconds = "Sekonden";
+ScanDisplayMessage = "Scan de QR code binnen het vierkant";
+ScanQRCode = "Scan QRCode";
+ClickScan = "Klik Scan";
+LiveView = "Live beelden";
+Network = "Netwerk";
+WifiSetting = "WiFi instellingen";
+WifiList = "WIFI lijst";
+EnterPwd = "Wachtwoord";
+Loading = "Laden...";
+WillSet = "Instellen";
+NotSetting = "Niet ingesteld";
+About = "Over";
+UserSetting = "Gebruikers instellingen";
+TakePictureSuccess = "Foto maken gelukt";
+UserSetting = "Gebruikers instellingen";
+AlarmSetting = "Alarm instellingen";
+ClockSetting = "Tijd instellingen";
+UserName = "Gebruikers naam";
+datetimeDeviceTime = "Camera tijd";
+datetimeDeviceTiming = "Tijd instelling";
+datetimeDeviceTimingServer = "NTP server";
+datetimeDeviceTimezone = "Tijd zone";
+datetimeDeviceTimeLocal = "Lokale tijd";
+alarmMotionEnable = "Bewegings detectie ingeschakeld";
+alarmMotionLevel = "Bewegings detectie nivo";
+alarmExtern = "Extern alarm";
+alarmExternLevel = "Extern alarm nivo";
+alarmMotionPreset = "Positie bij beweging";
+alarmMotionIO = "IO Alarm";
+alarmMotionIOLevel = "IO Alarm nivo";
+alarmMail = "Alarm mail";
+alarmPicEnable = "Afbeelding versturen bij alarm";
+alarmPicTimer = "Interval";
+
+alarm_text_a1 = "Hoog";
+alarm_text_a2 = "Laag";
+
+
+datetimeZone0 = "(GMT -11:00) Midway Island, Samoa";
+datetimeZone1 = "(GMT -10:00) Hawaii";
+datetimeZone2 = "(GMT -09:00) Alaska";
+datetimeZone3 = "(GMT -08:00) Pacific Time (USA & Canada)";
+datetimeZone4 = "(GMT -07:00) Mountain Time (USA & Canada)";
+datetimeZone5 = "(GMT -06:00) Central Time";
+datetimeZone6 = "(GMT -05:00) Eastern Time";
+datetimeZone7 = "(GMT -04:00) Atlantic Time";
+datetimeZone8 = "(GMT -03:30) newfoundland";
+datetimeZone9 = "(GMT -03:00) Brazil East, Greenland";
+datetimeZone10 = "(GMT -02:00) Mid Atlantic";
+datetimeZone11 = "(GMT -01:00) Azores";
+datetimeZone12 = "(GMT) Greenwich UK";
+datetimeZone13 = "(GMT +01:00) France, Germany, Netherlands, Italy";
+datetimeZone14 = "(GMT +02:00) Greece, Ukraine, Romania, Turkey";
+datetimeZone15 = "(GMT +03:00) Iraq, Jorda, Kuwait";
+datetimeZone16 = "(GMT +03:30) Tehran";
+datetimeZone17 = "(GMT +04:00) Baku, Armenia";
+datetimeZone18 = "(GMT +04:30) Kebuer";
+datetimeZone19 = "(GMT +05:00) Pakistan, Rusia, Ekaterinburg";
+datetimeZone20 = "(GMT +05:30) Calcutta, Mumbai, New Delhi";
+datetimeZone21 = "(GMT +06:00) Bangladesh, Russia, Almaty, Novosibirsk";
+datetimeZone22 = "(GMT +07:00) Russia, Thailand, Hanoi, Jakarta, Krasnoyarsk";
+datetimeZone23 = "(GMT +08:00) China, Hong Kong, Australia western, Singapore, Taiwan, Russia";
+datetimeZone24 = "(GMT +09:00) Japan, Korea, Yakusk";
+datetimeZone25 = "(GMT +09:30) Central Australia, Darwin, Adelaide";
+datetimeZone26 = "(GMT +10:00) Guam, Russia, Australia";
+datetimeZone27 = "(GMT +11:00) Solomon Islands";
+datetimeZone28 = "(GMT +12:00) Fiji, New Zealand";
+
+MotionLevelHigh="Hoog";
+MotionLevelMiddle="Middel";
+MotionLevelLow="Laag";
+DropListMotionLevel="Bewegings detectie nivo";
+DropListTriggerLevel="Sensor nivo";
+DropListPreset="Positie";
+DropListOutputLevel="Uitgang nivo";
+DropListUploadInterval="Upload interval";
+DropListTimeZone="Tijd zone";
+DropListNtpServer="NTP server";
+
+LAN = "LAN";
+LANSearch = "Zoeken in LAN";
+Alarm = "Alarm";
+Picture = "Afbeelding";
+Record = "Opname";
+Local = "Lokaal";
+Remote = "Afstand";
+LocalPic = "Lokale afbeelding";
+SavePictureSuccess = "Opslaan afbeelding gelukt" ;
+
+Message= "Weet u zeker dat u deze afbeelding wilt verwijderen?";
+DeletePicture = "Afbeelding verwijderen?";
+TouchAddCamera = "Camera toevoegen";
+
+FTPSetting = "FTP instellingen";
+FTPServer = "FTP Server" ;
+FTPUser = "FTP gebr.";
+FTPPwd = "FTP WW";
+FTPPort = "FTP poort";
+FTPUploadInterval = "FTP upload interval";
+InputFtpServer = "FTP server";
+InputFtpUser = "Gebruikersnaam";
+InputFtpPwd = "Wachtwoord";
+MailSetting = "Mail instellingen";
+MailSender = "Afzender";
+MailSmtpSvr = "SMTP server";
+MailSmtpPort = "SMTP poort";
+MailAuth = "Authorisatie";
+MailUser = "Gebr.";
+MailPwd = "WW";
+MailRecv1 = "Ontvanger 1";
+MailRecv2 = "Ontvanger 2";
+MailRecv3 = "Ontvanger 3";
+MailRecv4 = "Ontvanger 4";
+InputMailSender = "Afzender";
+InputMailServer = "SMTP server";
+InputMailUser = "Gebruikersnaam";
+InputMailPwd = "Wachtwoord";
+InputMailRecv = "Ontvanger";
+alarmRecord = "Alarm opname";
+
+//摄像机上限提示
+cameraNumOut="Maximum aantal camera's bereikt";
+ingInitCamera="Camera initialiseren";
+selectAll="Selecteer alles";
+reserveSelect="Selectie omkeren";
+useradmin="Administrator";
+userOperator="Operator";
+noadmin="Geen administrator";
+
+SdcardSetting="SD-kaart instellingen";
+sdcard_total="SD-kaart totaal capaciteit (M)";
+sdcard_remain="SD-kaart beschikbare capaciteit(M)";
+sdcard_input="SD-kaart ingang";
+sdcard_output="SD-kaart uitgang";
+sdcard_status="SD-kaart status";
+sdcard_recordtime="SD-kaart opname tijd";
+sdcard_fixedtime_record="SD-kaart vaste opname tijd";
+sdcard_cover_record="SD-kaart cyclische opname";
+sdcard_range="Bereik 5-120";
+
+play_stop_record_p="Opname loopt kan nog niet worden afgespeeld";
+record_filename="Bestandsnaam: ";
+record_filetime="Opname tijd: ";
+
+PPPPStatusInvalidUserPwd="Ongeldige gebruikersnaam en/of wachtwoord";
+filesize="bestands grote: ";
+
+
+
+about_soft_information="Software informatie";
+about_server_information="Server informatie";
+about_default_server_addr="Server adres";
+about_default_prompt="Server is hersteld, Herstart de applicatie";
+about_server_finish="Server vervanging is gelukt, Herstart de applicatie";
+about_server_prompt="Vul hier het server adres in";
+
+ftp_uploadtime_prompt="upload interval 0～3600";
+preset_call="Naar positie gaan";
+preset_set="positie opslaan";
+preset="positie";
+
+setuser_nomatch="Gebruikersnaam of wachtwoord mag alleen uit letters en nummers bestaan";
+
+inputCameraIp="IP adres camera";
+inputCameraPort="Poort camera";
+cameraIp="IP adres";
+cameraPort="Poort";
+pleaseInputcameraIp="Vul hier het IP adres van de camera in";
+pleaseInputcameraPort="Vul hier het poort nummer van de camera in";
+
+play_watchmode="Beeld kwaliteit";
+play_goodvalue="Hoge kwaliteit";
+play_fastspeed="Hoge snelheid";
+play_goodfast="Kwaliteit en snelheid";
+play_frame="Snelheid";
+play_recording="Opnemen...";
+
+addcamera_prompt="Dit apparaat bestaat al";
+nouserorloginuser="De gebruikersnaam mag niet zijn user of loginuser";
+nopwd="wachtwoord mag niet pwd zijn";
+
+moreviewall="4 schermen zijn als volledig scherm toegevoegd";
+
+ddnscameraisofflineornolan="De camera is off-line of bevindt zich niet in hetzelfde netwerk";
+wifipwdcheck="Veilige modus";
+wifipwdopen="Open";
+wifipwdshare="Delen";
+wifipwdkekformat="Sleutel opmaak";
+kekformatAscci="ASCII";
+kekformat16="Hex";
+
+nochinese="Kan geen Chinese tekens bevatten";
+
+initPicPrompt="Laden afbeelding...";
+
+piclisteditprompt="Afbeeldingen worden geladen, druk op aanpassen zodra de afbeeldingen geladen zijn";
+moreviewinit="Camera wordt geinitialiseerd,een ogenblik geduld";
+moreviewadded="De camera is toegevoegd";
+fourviews="4 camera weergave";
+p2pmoreview="P2P 4 camera weergave";
+moreviewadded="De camera is toegevoegd";
+
+ddnscameraisofflineornolan="Verbinding mislukt of de mobiele telefoon en camera zijn niet verbonden met hetzelfde netwerk";
+moreviewall="Camera is al toegevoegd";
+play_watchmode="Kijk Modus";
+addcamera_idnotchinese="ID mag geen chinese karakters bevatten";
+sdcard_record_starttime="Start opname";
+sdcard_record_endtime="Einde opname";
+sdcard_startendtime_prompt="Start tijd dient lager te zijn dan de eind tijd";
+
+
+sdcard_format="SD Formatteren";
+
+versionInfo="Versie informatie";
+versionNew="Nieuwe versie:";
+versionIgnore="Negeer de versie";
+versionUpdate="Nu updaten";
+versionlaterUpdate="Later Updaten";
+
+
+defaultName="Naam";
+
+
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+sd_record_audio="Record Audio";
+isEnableAlarmAudio="Audio opname inschakelen";
+wifijoin="Verbinden";
+wifisetsucc="WiFi instellingen zijn gelukt, de camera word herstart.";
+wifisetfail="WiFi-instellingen mislukt";
+setttingsrestart="Camera herstarten";
+restartdeciveprompt="Camera herstarten?";
+restartdecivemessage="Toestel zal niet operationeel zijn tijdens herstart.";
+devicerestarting="Camera herstarten ...";
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+play_alarmopen="On Alarm   ";
+play_alarmclose="Off Alarm ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light ";
+play_ledauto="Auto Led Light";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

@@ -1,0 +1,311 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+//通用
+Edit = "編輯";
+Done =  "完成";
+Delete = "刪除";
+Back = "返回";
+Cancel = "取消";
+Message= "提示";
+IpAddr = "IP地址";
+Port = "端口";
+User = "用戶名";
+Pwd = "密碼";
+selectAll="全選";
+reserveSelect="反選";
+OK = "確定";
+//攝像機界面
+IPCamera = "攝像機";
+fourviews="四畫面";
+TouchAddCamera = "點此添加攝像機";
+cameraNumOut="您的攝像機數已達上限";
+ingInitCamera="正在初始化攝像機";
+
+PPPPModeP2P = "p2p連接";
+PPPPModeRelay = "p2p轉發";
+PPPPStatusUnknown = "未知";
+PPPPStatusConnecting = "正在連接";
+PPPPStatusInitialing = "正在初始化";
+PPPPStatusOnline = "在線";
+CameraIsNotOnline = "攝像機不在線";
+PPPPStatusInvalidUserPwd="用戶名或者密碼錯誤";
+PPPPStatusConnectFailed = "連接失敗";
+PPPPStatusDisconnected = "連接斷開";
+PPPPStatusInvalidID = "無效ID";
+PPPPStatusConnectTimeout = "連接超時";
+noadmin="該用戶不是管理員或網絡不佳";
+
+versionInfo="版本更新提示";
+versionNew="最新版本:";
+versionIgnore="忽略該版本";
+versionUpdate="馬上更新";
+versionlaterUpdate="稍後更新";
+
+ddnscameraisofflineornolan="請求失敗或手機與攝像機不在一個網絡";
+//添加攝像機界面
+AddCamera = "添加攝像機";
+EditCamera = "編輯攝像機" ;
+CameraName = "名稱";
+CameraID = "攝像機ID" ;
+InputCameraName = "輸入攝像機名稱";
+InputCameraID = "輸入攝像機ID";
+InputUserName = "輸入用戶名";
+InputPassword = "輸入密碼";
+inputCameraIp="輸入IP或域名";
+inputCameraPort="輸入端口";
+cameraIp="IP或域名";
+cameraPort="端口";
+pleaseInputcameraIp="請輸入攝像機Ip或域名";
+pleaseInputcameraPort="請輸入攝像機端口";
+PleaseInputCamreraName = "請輸入攝像機名稱";
+PleaseInputCameraID = "請輸入攝像機ID";
+PleaseInputUserName = "請輸入用戶名";
+CameraInfo = "攝像機信息";
+ScanQRCode = "掃描二維碼";
+LANSearch = "局域網搜索";
+editcameraunableuse="該設備的攝像頭不可用";
+addcamera_idnotchinese="ID號不能包含中文";
+addcamera_prompt="該設備已經存在";
+nouserorloginuser="用戶名不能是user或者loginuser";
+nopwd="密碼不能是pwd";
+//局域網搜索攝像機界面
+SearchCamera = "搜索攝像機" ;
+//視頻觀看界面
+DefaultVideoParams = "視頻參數恢復默認";
+play_stop_record_p="請先停止錄像";
+preset_call="調用";
+preset_set="設置";
+preset="預置位";
+play_mode="模式";
+play_goodvalue="高清";
+play_fastspeed="流暢";
+play_goodfast="標準";
+play_frame="幀率";
+play_recording="正在錄像...";
+TakePictureSuccess = "抓圖成功";
+play_alarmopen="開啟報警";
+play_alarmclose="關閉報警";
+play_ledopen="紅外燈開";
+play_ledclose="紅外燈關";
+play_ledauto="紅外燈自動";
+play_gpioopen="GPIO開";
+play_gpioclose="GPIO關";
+
+//報警界面
+alarmview_title="報警";
+
+//報警日誌查看界面
+alerm_push_log = "報警記錄";
+alerm_motion_alarm="移動偵測報警";
+alerm_gpio_alarm="IO聯動報警";
+alarm_audio_alarm="聲音報警";
+//圖片界面
+LocalPic = "圖片";
+//圖片日期界面
+//圖片列表界面
+initPicPrompt="正在加載圖片...";
+piclisteditprompt="請在圖片加載完後,再點擊編輯按鈕";
+//圖片觀看界面
+initVidPrompt="正在加载视频...";
+picshow_delete="Do you want to delete image?";
+picshow_share="Do you want to share image?";
+picshow_album="Do you want to save image to album?";
+SavePictureSuccess = "圖像已轉存到手機相冊" ;
+
+
+
+//錄像界面
+Record = "錄像";
+Local = "本地";
+Remote = "遠程";
+//錄像日期界面
+//錄像列表界面
+//錄像觀看界面
+//遠程錄像列表界面
+//遠程錄像觀看界面
+//關於界面
+About = "關於";
+about_version="版本";
+about_internalversion="内部版本";
+about_receiverpush="接收報警推送消息";
+//設置界面
+setttingsrestart="重啟設備";
+restartdeciveprompt="重啟設備提示";
+restartdecivemessage="設備重啟需要一段時間,重啟時請勿操作該設備";
+devicerestarting="設備正在重啟...";
+
+
+//日期設置界面
+ClockSetting = "時鐘設置";
+datetimeDeviceTime = "設備時間";
+datetimeDeviceTiming = "自動校時";
+datetimeDeviceTimingServer = "Ntp服務器";
+datetimeDeviceTimezone = "時區";
+datetimeDeviceTimeLocal = "本地時間校準時鐘";
+datetime_jan="Jan";
+datetime_Feb="Feb";
+datetime_Mar="Mar";
+datetime_Apr="Apr";
+datetime_May="May";
+datetime_Jun="Jun";
+datetime_Jul="Jul";
+datetime_Aug="Aug";
+datetime_Sept="Sept";
+datetime_Oct="Oct";
+datetime_Nov="Nov";
+datetime_Dec="Dec";
+
+datetime_Sun="Sun";
+datetime_Mon="Mon";
+datetime_Tue="Tue";
+datetime_Wed="Wed";
+datetime_Thu="Thu";
+datetime_Fri="Fri";
+datetime_Sat="Sat";
+
+datetimeZone0 = "(GMT -11:00) 中途島, 薩摩亞群島";
+datetimeZone1 = "(GMT -10:00) 夏威夷";
+datetimeZone2 = "(GMT -09:00) 阿拉斯加";
+datetimeZone3 = "(GMT -08:00) 太平洋時間(美國和加拿大)";
+datetimeZone4 = "(GMT -07:00) 山地時間(美國和加拿大)";
+datetimeZone5 = "(GMT -06:00) 中部時間(美國和加拿大), 墨西哥城";
+datetimeZone6 = "(GMT -05:00) 東部時間(美國和加拿大), 利馬, 波哥大";
+datetimeZone7 = "(GMT -04:00) 大西洋時間(加拿大), 聖地亞哥, 拉巴斯";
+datetimeZone8 = "(GMT -03:30) 紐芬蘭";
+datetimeZone9 = "(GMT -03:00) 巴西利亞, 布宜諾斯艾麗斯, 喬治敦";
+datetimeZone10 = "(GMT -02:00) 中大西洋";
+datetimeZone11 = "(GMT -01:00) 佛得角群島";
+datetimeZone12 = "(GMT) 格林威治平時; 倫敦, 裏斯本, 卡薩布蘭卡";
+datetimeZone13 = "(GMT +01:00) 布魯賽爾, 巴黎, 柏林, 羅馬, 馬德裏, 斯多哥爾摩, 貝爾格萊德, 布拉格";
+datetimeZone14 = "(GMT +02:00) 雅典, 耶路撒冷, 開羅, 赫爾辛基";
+datetimeZone15 = "(GMT +03:00) 內羅畢, 利雅得, 莫斯科";
+datetimeZone16 = "(GMT +03:30) 德黑蘭";
+datetimeZone17 = "(GMT +04:00) 巴庫, 第比利斯, 阿布紮比, 馬斯科特";
+datetimeZone18 = "(GMT +04:30) 科布爾";
+datetimeZone19 = "(GMT +05:00) 伊斯蘭堡, 卡拉奇, 塔森幹";
+datetimeZone20 = "(GMT +05:30) 加爾各答, 孟買, 馬德拉斯, 新德裏";
+datetimeZone21 = "(GMT +06:00) 阿拉木圖, 新西伯利亞, 阿斯塔南, 達爾";
+datetimeZone22 = "(GMT +07:00) 曼谷, 河內, 雅加達";
+datetimeZone23 = "(GMT +08:00) 北京, 新加坡, 臺北";
+datetimeZone24 = "(GMT +09:00) 首爾, 雅庫茨克, 東京";
+datetimeZone25 = "(GMT +09:30) 達爾文";
+datetimeZone26 = "(GMT +10:00) 關島, 墨爾本, 悉尼, 莫爾茲比港, 符拉迪沃斯托克";
+datetimeZone27 = "(GMT +11:00) 馬加丹, 所羅門群島, 新喀裏多尼亞";
+datetimeZone28 = "(GMT +12:00) 奧克蘭, 惠靈頓, 斐濟";
+
+//用戶設置界面
+setuser_nomatch="用戶名或密碼只能是數字或字母";
+UserSetting = "用戶設置";
+useradmin="管理員";
+userOperator="操作者";
+uservisitor="參觀者";
+
+
+
+//郵件設置界面
+MailSetting = "郵件設置";
+MailSender = "發送者";
+MailSmtpSvr = "SMTP服務器";
+MailSmtpPort = "SMTP端口";
+MailAuth = "校驗";
+MailUser = "用戶名";
+MailRecv1 = "收件人1";
+MailRecv2 = "收件人2";
+MailRecv3 = "收件人3";
+MailRecv4 = "收件人4";
+InputMailSender = "輸入發件人郵箱";
+InputMailServer = "輸入SMTP服務器";
+InputMailRecv = "輸入收件人郵箱";
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+
+//報警設置界面
+AlarmSetting = "報警設置";
+alarmMotionEnable = "移動偵測布防";
+alarmMotionLevel = "移動偵測靈敏度";
+alarmExtern = "報警輸入布防";
+alarmExternLevel = "觸發電平";
+alarmMotionPreset = "報警預置位聯動";
+alarmMotionIO = "IO聯動";
+alarmMotionIOLevel = "輸出電平";
+alarmMail = "報警郵件通知";
+alarmPicEnable = "報警上傳圖片";
+alarmPicTimer = "上傳圖片間隔";
+alarm_text_a1 = "高";
+alarm_text_a2 = "低";
+alarmRecord = "報警TF卡錄像";
+isEnableAlarmAudio="是否開啟報警聲音";
+alarm_presetno="無";
+
+//FTP設置界面
+ftp_uploadtime_prompt="上傳間隔在0～3600";
+nochinese="不能有中文";
+FTPServer = "FTP服務器";
+FTPSetting = "FTP設置";
+InputFtpServer = "輸入FTP服務器";
+FTPUploadInterval = "上傳間隔";
+
+//SDCard設置界面
+SdcardSetting="SD卡設置";
+sdcard_total="SD卡總容量(M)";
+sdcard_remain="SD卡剩余量(M)";
+sdcard_input="SD卡已插入";
+sdcard_output="SD卡沒有插入";
+sdcard_status="SD卡狀態";
+sdcard_recordtime="SD卡錄像時長(分鐘)";
+sdcard_fixedtime_record="定時錄像";
+sdcard_cover_record="覆蓋錄像";
+sdcard_range="範圍5-120";
+sdcard_record_starttime="錄像開始時間";
+sdcard_record_endtime="錄像結束時間";
+sdcard_startendtime_prompt="開始時間請小於結束時間";
+sdcard_format="SD格式化";
+sd_record_audio="報警錄音";
+
+//Wifi設置界面
+WifiSetting = "無線設置";
+Loading = "正在加載...";
+NotSetting = "未設置";
+WifiList = "選擇WIFI";
+WillSet = "將設置";
+wifi_connected="連接成功";
+wifi_connectedfail="連接失敗";
+wifi_ssid="SSID";
+EnterPwd = "輸入密碼";
+wifijoin="加入";
+wifisetsucc="Wifi設置成功,設備將會重啟";
+wifisetfail="Wifi設置失敗";
+wifipwdcheck="安全模式";
+wifipwdopen="開放密鑰";
+wifipwdshare="共享密鑰";
+wifipwdkekformat="密鑰格式";
+kekformatAscci="ASCII";
+kekformat16="16進制";
+
+//Drop界面
+DropListMotionLevel="靈敏度";
+DropListTriggerLevel="觸發電平";
+DropListPreset="預置位";
+DropListOutputLevel="輸出電平";
+DropListUploadInterval="上傳間隔(秒)";
+DropListTimeZone="時區";
+DropListNtpServer="NTP服務器";
+MotionLevelHigh="高";
+MotionLevelMiddle="中";
+MotionLevelLow="低";
+//四畫面
+moreviewall="四畫面已添加滿";
+moreviewadded="該設備已添加";
+
+
+sdformat_prompt="正在格式化,請稍候...";
+
+refresh_toomuch="刷新太过频繁";
+scanID="二维码/条码";
+scanID_Prompt="将二维码/条码放入框内,即可自动扫描";

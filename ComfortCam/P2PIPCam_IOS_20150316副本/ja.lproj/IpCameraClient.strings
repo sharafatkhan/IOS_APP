@@ -1,0 +1,326 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+IPCamera = "カメラ";
+AddCamera = "カメラ追加";
+EditCamera = "カメラ編集" ;
+CameraName = "名称";
+IpAddr = "IPアドレス";
+Port = "ポート";
+User = "ユーザー";
+Pwd = "パスワード";
+OK = "確定";
+Cancel = "キャンセル";
+SearchCamera = "サーチカメラ" ;
+Back = "リターン";
+Hide = "隠し";
+Connecting = "接続中";
+Options = "オプション";
+Livestream = "リアルタイム映像";
+Edit = "編集";
+Setting = "カメラ設置";
+Delete = "デリート";
+DeviceID = "ID:";
+CameraType = "タイプ:";
+PPPStatus = "状態:" ;
+CameraID = "カメラID" ;
+InputCameraName = "カメラ名をインプット";
+InputCameraID = "カメラIDをインプット";
+InputUserName = "ユーザーをインプット";
+InputPassword = "パスワードをインプット";
+CameraInfo = "カメラインフォメーション";
+Done =  "確定";
+PPPPModeP2P = "p2p接続";
+PPPPModeRelay = "p2p転送";
+PPPPModeUnknown = "未知";
+PPPPStatusUnknown = "未知";
+PPPPStatusConnecting = "接続中";
+PPPPStatusInitialing = "初期化中";
+PPPPStatusOnline = "オンライン";
+PPPPStatusConnectFailed = "接続エラー";
+PPPPStatusDisconnected = "接続切断";
+PPPPStatusInvalidID = "無効ID";
+PleaseInputCamreraName = "カメラ名を入力";
+PleaseInputCameraID = "カメラIDを入力";
+PleaseInputUserName = "ユーザーを入力";
+CameraIsNotOnline = "カメラオフライン";
+Version = "バージョン情報";
+DefaultVideoParams = "映像パラメーターをデフォルトに戻しました";
+UnknownResolution = "解像度不明";
+PPPPMode = "モード:";
+PPPPStatusConnectTimeout = "接続タイムアウト";
+RelayModeTimeout = "転送モードタイムアウト:";
+StrSeconds = "秒";
+ScanDisplayMessage = "QRコードを四角枠に置きスキャンしてください";
+ScanQRCode = "QRコードをスキャン";
+ClickScan = "スキャン";
+LiveView = "見る";
+Network = "ネットワーク";
+WifiSetting = "Wi-Fi設定";
+WifiList = "Wi-Fiを選択";
+EnterPwd = "パスワードをインプット";
+Loading = "読み込み中";
+WillSet = "設置する予定";
+NotSetting = "設定されていません";
+About = "情報";
+UserSetting = "ユーザー設定";
+TakePictureSuccess = "キャプチャー成功";
+UserSetting = "ユーザー設定";
+AlarmSetting = "アラーム設定";
+ClockSetting = "クロック設定";
+UserName = "ユーザー";
+datetimeDeviceTime = "設備時間";
+datetimeDeviceTiming = "時間の自動修正";
+datetimeDeviceTimingServer = "Ntpサーバー";
+datetimeDeviceTimezone = "時間帯";
+datetimeDeviceTimeLocal = "現地時間修正クロック";
+alarmMotionEnable = "モーション検出設定";
+alarmMotionLevel = "モーション検出感度";
+alarmExtern = "アラーム入力設定";
+alarmExternLevel = "トリガーレベル";
+alarmMotionPreset = "アラームプリセット連動";
+alarmMotionIO = "IO連動";
+alarmMotionIOLevel = "アウトプットレベル";
+alarmMail = "アラームメール通知";
+alarmPicEnable = "静止画アップロードアラーム";
+alarmPicTimer = "静止画アップロード間隔";
+
+alarm_text_a1 = "高い";
+alarm_text_a2 = "低い";
+
+
+datetimeZone0 = "(GMT -11:00) ミッドウェ－諸島, サモア諸島";
+datetimeZone1 = "(GMT -10:00) ハワイ";
+datetimeZone2 = "(GMT -09:00) アラスカ";
+datetimeZone3 = "(GMT -08:00) 太平洋時間(アメリカとカナダ)";
+datetimeZone4 = "(GMT -07:00) 山地時間(アメリカとカナダ)";
+datetimeZone5 = "(GMT -06:00) 中部時間(アメリカとカナダ), メキシコ";
+datetimeZone6 = "(GMT -05:00) 東部時間(アメリカとカナダ), リマ, ボゴタ";
+datetimeZone7 = "(GMT -04:00) 大西洋時間(カナダ), サンチャゴ, ラパス";
+datetimeZone8 = "(GMT -03:30) ニューファンドランド";
+datetimeZone9 = "(GMT -03:00) ブラジリア, ブエノスアイレス, ジョージタウン";
+datetimeZone10 = "(GMT -02:00) 中大西洋";
+datetimeZone11 = "(GMT -01:00) カーボベルデ諸島";
+datetimeZone12 = "(GMT) グリニッチ; ロンドン, リスボン, カサブランカ";
+datetimeZone13 = "(GMT +01:00) ブリュッセル, パリ, ベルリン, ローマ, マドリード, ストックホルム, ベオグラード, プラハ";
+datetimeZone14 = "(GMT +02:00) アテネ, エルサレム, カイロ, ヘルシンキ";
+datetimeZone15 = "(GMT +03:00) ナイロビ, リヤド, モスクワ";
+datetimeZone16 = "(GMT +03:30) テヘラン";
+datetimeZone17 = "(GMT +04:00) バクー、トビリシ、アブダビ、マスカット";
+datetimeZone18 = "(GMT +04:30) カブール";
+datetimeZone19 = "(GMT +05:00) イスラマバード、カラチ、タシケント";
+datetimeZone20 = "(GMT +05:30) コルカタ、ムンバイ、マドラス、ニューデリー";
+datetimeZone21 = "(GMT +06:00) アルマトゥイ、ノボシビルスク、アスタナ, 　ダッカ";
+datetimeZone22 = "(GMT +07:00) バンコク、ハノイ、ジャカルタ";
+datetimeZone23 = "(GMT +08:00) 北京、シンガポール、台北";
+datetimeZone24 = "(GMT +09:00) ソウル、イルクーツク、東京";
+datetimeZone25 = "(GMT +09:30) ダーゥィン";
+datetimeZone26 = "(GMT +10:00) グアム島、メルボルン、シドニー、ポートモレスビー、ウラジオストク";
+datetimeZone27 = "(GMT +11:00) マガダン, ソロモン諸島、ニューカレドニア";
+datetimeZone28 = "(GMT +12:00) オークランド、ウェリントン、フィジー";
+
+MotionLevelHigh="高い";
+MotionLevelMiddle="ミドル";
+MotionLevelLow="低い";
+DropListMotionLevel="感度";
+DropListTriggerLevel="トリガーレベル";
+DropListPreset="プリセット";
+DropListOutputLevel="アウトプットレベル";
+DropListUploadInterval="アップロード間隔(秒)";
+DropListTimeZone="時間帯";
+DropListNtpServer="NTPサーバー";
+
+LAN = "LAN";
+LANSearch = "LANサーチ";
+Alarm = "アラーム";
+Picture = "静止画";
+Record = "録画";
+Local = "ローカル";
+Remote = "リモート";
+LocalPic = "静止画";
+SavePictureSuccess = "静止画を保存できました" ;
+
+Message= "メッセージ";
+DeletePicture = "静止画を削除";
+TouchAddCamera = "ここをクリックして、カメラ追加します";
+
+FTPSetting = "FTP設置";
+FTPServer = "FTPサーバー" ;
+FTPUser = "ユーザー";
+FTPPwd = "パスワード";
+FTPPort = "ポート";
+FTPUploadInterval = "アップロード間隔";
+InputFtpServer = "FTPサーバーを入力";
+InputFtpUser = "ユーザーを入力";
+InputFtpPwd = "パスワードを入力";
+MailSetting = "メール設定";
+MailSender = "送信者";
+MailSmtpSvr = "SMTPサーバー";
+MailSmtpPort = "SMTPポート";
+MailAuth = "チェック";
+MailUser = "ユーザー";
+MailPwd = "パスワード";
+MailRecv1 = "受信者1";
+MailRecv2 = "受信者2";
+MailRecv3 = "受信者3";
+MailRecv4 = "受信者4";
+InputMailSender = "送信者メールボックスを入力";
+InputMailServer = "SMTPサーバーを入力";
+InputMailUser = "ユーザーを入力";
+InputMailPwd = "パスワードを入力";
+InputMailRecv = "受信者メールボックスを入力";
+alarmRecord = "アラームSDカード記録";
+
+//カメラ上限メッセージ
+cameraNumOut="カメラの数は上限に達しました";
+ingInitCamera="カメラ初期化中";
+selectAll="全て選択";
+reserveSelect="逆オプション";
+useradmin="アドミニストレーター";
+userOperator="オペレーター";
+noadmin="このユーザーはアドミニストレーターではありません";
+
+SdcardSetting="SDカード設定";
+sdcard_total="SDカードの総容量(M)";
+sdcard_remain="SDカードの空き容量 (M)";
+sdcard_input="SDカードは挿入済み";
+sdcard_output="SDカードは挿入されていません";
+sdcard_status="SDカード状態";
+sdcard_recordtime="SDカードの記録時間 (分)";
+sdcard_fixedtime_record="記録の固定時間";
+sdcard_cover_record="記録の保護";
+sdcard_range="範囲5-120";
+
+play_stop_record_p="記録を停止してください";
+record_filename="ファイル名: ";
+record_filetime="記録時間: ";
+
+PPPPStatusInvalidUserPwd="ユーザー名あるいはパスワードが正しくありません";
+filesize="ファイルサイズ: ";
+about_soft_information="アプリ情報";
+about_server_information="サーバー情報";
+about_default_server_addr="デフォルトサーバーアドレスを取得";
+about_default_prompt="サーバー取得。再起動で有効になります";
+about_server_finish="サーバー交換済み。再起動で有効になります";
+about_server_prompt="サーバーアドレスをインプット";
+ftp_uploadtime_prompt="アップロード間隔：0～3600";
+preset_call="呼び出し";
+preset_set="設定";
+preset="プリセット";
+setuser_nomatch="ユーザー名、パスワードは数字か英文字だけ使用できます";
+inputCameraIp="IPかドメイン名を入力";
+inputCameraPort="ポートを入力";
+cameraIp="IPかドメイン名";
+cameraPort="ポート";
+pleaseInputcameraIp="カメラIPかドメインを入力してください";
+pleaseInputcameraPort="カメラポートを入力してください";
+
+play_watchmode="視聴モード";
+play_goodvalue="品質優先";
+play_fastspeed="速度優先";
+play_goodfast="標準画質";
+play_frame="フレームレート";
+play_recording="録画中...";
+
+addcamera_prompt="このカメラはすでに存在しています";
+nouserorloginuser="ユーザー名にはuserやloginuserを使えません";
+nopwd="パスワードにはpwdを使えません";
+
+moreviewall="4画面追加済みです";
+moreviewadded="このカメラはすでに追加済みです";
+
+ddnscameraisofflineornolan="接続エラー。カメラとスマートフォンはネットワークにつながっていません";
+
+wifipwdcheck="安全モード";
+wifipwdopen="無効";
+wifipwdshare="共有";
+wifipwdkekformat="認証タイプ";
+kekformatAscci="ASCII";
+kekformat16="16進数";
+
+fourviews="4画面";
+p2pmoreview="P2P 4画面";
+
+nochinese="中国文があってはいけません";
+initPicPrompt="静止画読み込み中...";
+piclisteditprompt="静止画のアップロード終了後、編集ボタンをクリックしてください";
+moreviewinit="カメラ初期化中、しばらくお待ちください";
+
+addcamera_idnotchinese="IDに中国文があってはいけません";
+sdcard_record_starttime="記録開始時間";
+sdcard_record_endtime="記録終了時間";
+sdcard_startendtime_prompt="開始時間を終了時間より前にしてください";
+sdcard_format="SDカードをフォーマットする";
+
+versionInfo="バージョン更新情報";
+versionNew="最新バージョン:";
+versionIgnore="そのバージョンを無視";
+versionUpdate="直ぐに更新";
+versionlaterUpdate="後で更新";
+
+
+wifijoin="Wi-Fi接続";
+wifisetsucc="Wi-Fi設定成功。カメラは再起動します";
+wifisetfail="Wi-Fi設定エラー";
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+wifijoin="Join";
+wifisetsucc="Wifi sets successfully,the device will reboot";
+wifisetfail="Wifi sets failure";
+
+isEnableAlarmAudio="Whether to open the alarm sounds";
+sd_record_audio="Record Audio";
+
+setttingsrestart="Restart Device";
+restartdeciveprompt="Restart Device Prompt";
+restartdecivemessage="Device to restart over a period of time, restart do not operate the device";
+devicerestarting="Device restarting...";
+
+
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light  ";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

@@ -1,0 +1,40 @@
+#ifndef _BIZ_ERR_H_
+#define _BIZ_ERR_H_
+
+#define ERR_BIZ_SUCCESSFUL					 0
+#define ERR_BIZ_UNSUCCESSFUL                -31
+#define ERR_BIZ_NOT_INITIALIZED				-32
+#define ERR_BIZ_ALREADY_INITIALIZED			-33
+#define ERR_BIZ_TIME_OUT					-34
+#define ERR_BIZ_INVALID_PARAMETER			-35
+#define ERR_BIZ_FAIL_TO_RESOLVE_NAME		-36
+#define ERR_BIZ_INSUFFICIENT_RESOURC		-37
+#define ERR_BIZ_TOO_FAST_INPUT			    -38
+#define ERR_BIZ_PORT_BIND_FAILED		    -39
+#define ERR_BIZ_NOT_LOGIN                   -40
+#define ERR_BIZ_ACCOUNT_ALREADY_EXIST		-41
+#define ERR_BIZ_INVALID_USER				-42
+#define ERR_BIZ_NO_RESULT					-43
+#define ERR_BIZ_INVALID_VERSION             -44
+#define ERR_BIZ_INVALID_SERVICE             -45
+#define ERR_BIZ_INVALID_BILLING             -46
+#define ERR_BIZ_ALREADY_LOGOUT				-47
+#define ERR_BIZ_INCORECT_PACKET				-48
+#define ERR_BIZ_SVR_OPERATION_FAILED        -49
+#define ERR_BIZ_ID_EXCEED_LIMITATION        -50
+#define ERR_BIZ_INVALID_IDPRE               -51
+#define ERR_BIZ_INVALID_BIZSTR              -52
+#define ERR_BIZ_INVALID_CONF                -53
+#define ERR_BIZ_SERVER_BUSY					-54  
+#define ERR_BIZ_MTEL_ALREADY_EXIST			-55  
+#define ERR_BIZ_MAIL_ALREADY_EXIST			-56 
+#define ERR_BIZ_UID_UNEXISTED				-57 
+#define ERR_BIZ_UID_AUTH_UNMEETED			-58 
+#define ERR_BIZ_ACCOUNT_UNACTIVE			-59 
+#define ERR_BIZ_INVALID_SESSION				-60 
+#define ERR_BIZ_ALREADY_LOGOUT_FORCED		-61
+#define ERR_BIZ_SERVER_DISCONNECTED			-62
+#define ERR_BIZ_PACKET_CREATE_FAILED		-63
+
+#endif
+

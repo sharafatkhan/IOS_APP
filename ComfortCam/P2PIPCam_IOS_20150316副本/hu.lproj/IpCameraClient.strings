@@ -1,0 +1,329 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+IPCamera = " IP-kamera";
+AddCamera = " Kamera hozzáadása";
+EditCamera = " Kamera szerkesztése ";
+CameraName = " Kamera neve";
+IpAddr = " IP-cím";
+Port = " Port";
+User = " Felhasználó";
+Pwd = " Jelszó";
+OK = " OK";
+Cancel = " Mégsem";
+SearchCamera = " Kamera keresése ";
+Back = " Vissza";
+Hide = " Elrejtés";
+Connecting = " Csatlakozás...";
+Options = " Lehetőségek";
+Livestream = " Élő adatfolyam";
+Edit = " Szerkesztés";
+Setting = " Beállítás";
+Delete = " Törlés";
+DeviceID = " Azonosító:";
+CameraType = " Kamera típusa:";
+PPPStatus = " PPP állapot: ";
+CameraID =" Kamera azonosító ";
+InputCameraName = " Kameranév megadása";
+InputCameraID = " Kamera azonosító megadása";
+InputUserName = " Felhasználónév megadása";
+InputPassword = " Jelszó megadása";
+CameraInfo = " Kamera infó";
+Done =  "  Kész";
+PPPPModeP2P = " P2P mód";
+PPPPModeRelay = " P2P mód átjátszás";
+PPPPModeUnknown = " Ismeretlen mód";
+PPPPStatusUnknown = " Ismeretlen";
+PPPPStatusConnecting = " Csatlakozás";
+PPPPStatusInitialing = " Inicializálás";
+PPPPStatusOnline = " Kapcsolatban";
+PPPPStatusConnectFailed = " Sikertelen csatlakozás";
+PPPPStatusDisconnected = " Leválasztva";
+PPPPStatusInvalidID = " Érvénytelen azonosító";
+PleaseInputCamreraName = " Töltse ki a kamera nevét";
+PleaseInputCameraID = " Töltse ki a kamera azonosítóját";
+PleaseInputUserName = " Töltse ki a felhasználónevet";
+CameraIsNotOnline = " A kamera kapcsolaton kívül van";
+Version = " Verzió";
+DefaultVideoParams = " Alapértelmezett beállítások";
+UnknownResolution = " Ismeretlen felbontás";
+PPPPMode = " PPPP mód:";
+PPPPStatusConnectTimeout = " Kapcsolat időtúllépése";
+RelayModeTimeout = " Átjátszás kapcsolat időtúllépése:";
+StrSeconds = " Másodperc";
+ScanDisplayMessage = " Olvassa be a dobozban lévő QR-kódot";
+ScanQRCode = " QR-kód beolvasása";
+ClickScan = " Kattintson a Beolvasás gombra";
+LiveView = " Élő nézet";
+Network = " Hálózat";
+WifiSetting = " WiFi beállítások";
+WifiList = " WiFi lista";
+EnterPwd = " Jelszó megadása";
+Loading = " Betöltés...";
+WillSet = " Be lesz állítva";
+NotSetting = " Sikertelen beállítás";
+About = " Névjegy";
+UserSetting = " Felhasználói beállítások";
+TakePictureSuccess = " Sikertelen képkészítés";
+UserSetting = " Felhasználói beállítások";
+AlarmSetting = " Riasztási beállítások";
+ClockSetting = " Időbeállítások";
+UserName = " Felhasználónév";
+datetimeDeviceTime = " Eszköz idő";
+datetimeDeviceTiming = " Időbeállítások";
+datetimeDeviceTimingServer = " NTP-szerver";
+datetimeDeviceTimezone = " Időzóna";
+datetimeDeviceTimeLocal = " Helyi idő";
+alarmMotionEnable = " Mozgásérzékelés engedélyezve";
+alarmMotionLevel = " Mozgásérzékenység";
+alarmExtern = " I/O riasztás";
+alarmExternLevel = " I/O riasztási szint";
+alarmMotionPreset = " Előbeállítás riasztásra";
+alarmMotionIO = " I/O mozgásriasztás";
+alarmMotionIOLevel = " I/O mozgásszint";
+alarmMail = " E-mail küldése riasztásra";
+alarmPicEnable = " Pillanatkép küldése riasztásra";
+alarmPicTimer = " Időköz";
+
+alarm_text_a1 = " Magas";
+alarm_text_a2 = " Alacsony";
+
+
+datetimeZone0 = " (GMT-11:00) Midway-szig., Szamoa";
+datetimeZone1 = " (GMT -10:00) Hawaii";
+datetimeZone2 = " (GMT-09:00) Alaszka";
+datetimeZone3 = " (GMT-08:00) Csendes-óceáni idő (USA és Kanada)";
+datetimeZone4 = " (GMT-07:00) Hegyvidéki idő (USA és Kanada)";
+datetimeZone5 = " (GMT-06:00) Központi idő";
+datetimeZone6 = " (GMT-05:00) Keleti idő";
+datetimeZone7 = " (GMT-04:00) Atlanti-óceáni idő";
+datetimeZone8 = " (GMT-03:30) Újfundland";
+datetimeZone9 = " (GMT-03:00) Kelet-Brazília, Grönland";
+datetimeZone10 = " (GMT-02:00) Atlanti-Óceán középső része";
+datetimeZone11 = " (GMT-01:00) Azori-szig.";
+datetimeZone12 = " (GMT) Greenwich, Nagy-Britannia";
+datetimeZone13 = " (GMT+01:00) Franciaország, Németország, Hollandia, Olaszország";
+datetimeZone14 = " (GMT +02:00) Görögország, Ukrajna, Románia, Törökország";
+datetimeZone15 = " (GMT +03:00) Irak, Jordánia, Kuvait";
+datetimeZone16 = " (GMT +03:30) Teherán";
+datetimeZone17 = " (GMT +04:00) Baku, Örményország";
+datetimeZone18 = " (GMT +04:30) Kebuer";
+datetimeZone19 = " (GMT +05:00) Pakisztán, Oroszország, Jekatyerinburg";
+datetimeZone20 = " (GMT +05:30) Kalkutta, Mumbai, Új-Delhi";
+datetimeZone21 = " (GMT +06:00) Banglades, Oroszország, Almaty, Novoszibirszk";
+datetimeZone22 = " (GMT +07:00) Oroszország, Thaiföld, Hanoi, Dzsakarta, Krasznojárszk";
+datetimeZone23 = " (GMT +08:00) Kína, Hongkong, Nyugat-Ausztrália, Szingapúr, Tajvan, Oroszország";
+datetimeZone24 = " (GMT +09:00) Japán, Korea, Jakutszk";
+datetimeZone25 = " (GMT +09:30) Közép-Ausztrália, Darwin, Adelaide";
+datetimeZone26 = " (GMT +10:00) Guam, Oroszország, Ausztrália";
+datetimeZone27 = " (GMT +11:00) Salamon-szigetek";
+datetimeZone28 = " (GMT +12:00) Fidzsi, Új-Zéland";
+
+MotionLevelHigh="Magas";
+MotionLevelMiddle="Közepes";
+MotionLevelLow="Alacsony";
+DropListMotionLevel="Mozgásszint";
+DropListTriggerLevel="Kioldási szint";
+DropListPreset="Előbeállítás";
+DropListOutputLevel="Kimeneti szint";
+DropListUploadInterval="Feltöltés intervalluma (mp)";
+DropListTimeZone="Időzóna";
+DropListNtpServer="NTP-szerver";
+
+LAN = " LAN";
+LANSearch = " LAN keresése";
+Alarm = " Riasztás";
+Picture = " Kép";
+Record = " Rögzítés";
+Local = " Helyi";
+Remote = " Távoli";
+LocalPic = " Helyi kép";
+SavePictureSuccess = " Kép sikeres mentése ";
+
+Message= "Biztosan törölni akarja?";
+DeletePicture = " Törli a képet?";
+TouchAddCamera = " Érintse meg a kamera hozzáadásához";
+
+FTPSetting = " FTP beállítások";
+FTPServer = " FTP-szerver ";
+FTPUser = " FTP felhasználó";
+FTPPwd = " FTP jelszó";
+FTPPort = " FTP port";
+FTPUploadInterval = " FTP feltöltési intervallum";
+InputFtpServer = " FTP-szerver";
+InputFtpUser = " FTP felhasználó";
+InputFtpPwd = " FTP jelszó";
+MailSetting = " Levelezési beállítások";
+MailSender = " Feladó";
+MailSmtpSvr = " SMTP-szerver";
+MailSmtpPort = " SMTP port";
+MailAuth = " Jogosultság";
+MailUser = " Felhasználó";
+MailPwd = " Jelszó";
+MailRecv1 = " Címzett 1";
+MailRecv2 = " Címzett 2";
+MailRecv3 = " Címzett 3";
+MailRecv4 = " Címzett 4";
+InputMailSender = " Feladó";
+InputMailServer = " SMTP-szerver";
+InputMailUser = " Felhasználó";
+InputMailPwd = " Jelszó";
+InputMailRecv = " Címzett";
+alarmRecord = " Rögzítés eseményre";
+
+//摄像机上限提示
+cameraNumOut="A kamerák maximális számát elérte";
+ingInitCamera="Kamera inicializálása";
+selectAll="Összes kijelölése";
+reserveSelect="Kijelölés megfordítása";
+useradmin="Rendszergazda";
+userOperator="Kezelő";
+noadmin="Nincs rendszergazda";
+
+SdcardSetting="SD-kártya beállítások";
+sdcard_total="SD-kártya teljes kapacitása (M)";
+sdcard_remain="SD-kártya szabad kapacitása (M)";
+sdcard_input="SD-kártya bemenet";
+sdcard_output="SD-kártya kimenet";
+sdcard_status="SD-kártya állapota";
+sdcard_recordtime="SD-kártya rögzítési idő";
+sdcard_fixedtime_record="Rögzített rögzítési idő";
+sdcard_cover_record="Ciklikus rögzítés";
+sdcard_range="Tartomány 5-120";
+
+play_stop_record_p="Fájl nem játszható le rögzítés közben";
+record_filename="Fájlnév: ";
+record_filetime="Fájl ideje: ";
+
+PPPPStatusInvalidUserPwd="Érvénytelen felhasználónév vagy jelszó";
+filesize="fájlméret: ";
+
+
+
+about_soft_information="Szoftverinformáció";
+about_server_information="Szerver információ";
+about_default_server_addr="Szervercím";
+about_default_prompt="A szerver helyreállt. Indítsa újra az alkalmazást";
+about_server_finish="A szerver helyreállt. Indítsa újra az alkalmazást ";
+about_server_prompt="Szervercím megadása";
+
+ftp_uploadtime_prompt="Feltöltés intervalluma 0–3600";
+preset_call="Ugrás előbeállításra";
+preset_set="Előbeállítás végzése";
+preset="Előbeállítás";
+
+setuser_nomatch="A felhasználónév és jelszó csak betűket és számokat tartalmazhat";
+
+inputCameraIp="Kamera IP-címe";
+inputCameraPort="Kamera port";
+cameraIp="IP-cím";
+cameraPort="Port";
+pleaseInputcameraIp="Adja meg a kamera IP-címét";
+pleaseInputcameraPort="Adja meg a kamera portszámát";
+
+play_watchmode="Adatfolyam mód";
+play_goodvalue="Magas minőség";
+play_fastspeed="Nagy sebesség";
+play_goodfast="Kiegyensúlyozott sebesség és minőség";
+play_frame="Sebesség";
+play_recording="Rögzítés…";
+
+addcamera_prompt="Ilyen eszköz már létezik";
+nouserorloginuser="A felhasználónév nem lehet user vagy loginuser";
+nopwd="a jelszó nem lehet pwd";
+
+moreviewall="4 képernyő megtekintése teljes képernyős módban";
+
+ddnscameraisofflineornolan="A kamera nincs vonalban vagy nem ugyanabban a hálózatban található";
+
+wifipwdcheck= "Biztonságos mód";
+wifipwdopen= "Megnyitás";
+wifipwdshare= "Megosztás";
+wifipwdkekformat= "Kulcs formátum";
+kekformatAscci= "ASCII";
+kekformat16= "Hex";
+
+nochinese= "nem tartalmazhat kínai karaktereket";
+
+initPicPrompt= "Kép betöltése…";
+
+piclisteditprompt= "Képek betöltése, érintse meg a szerkesztés gombot";
+moreviewinit= "Kamera inicializálódik, várjon";
+moreviewadded= "A kamera hozzáadva";
+fourviews= "Négyes nézet";
+p2pmoreview= "P2P négyes nézet";
+
+ddnscameraisofflineornolan="Nem sikerült a kérés vagy mobil telefon és a kamera kapcsolódik a különböző hálózati";
+moreviewall="Négy kamera már ki";
+play_watchmode="Nézd Mode";
+addcamera_idnotchinese="Azonosító nem tartalmazhat a kínai karakterek";
+sdcard_record_starttime="Record indul";
+sdcard_record_endtime="Felvétel vége";
+sdcard_startendtime_prompt="Kezdés ideje alatt kell lennie a végső idő";
+
+
+sdcard_format="SD Format";
+
+versionInfo="verzió információ";
+versionNew="Új verzió:";
+versionIgnore="Figyelmen kívül hagyja a verzió";
+
+versionUpdate="Frissítés azonnal";
+versionlaterUpdate="Frissítés később";
+defaultName="Név";
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+sd_record_audio="Record Audio";
+isEnableAlarmAudio="Hangfelvétel engedélyezése";
+wifijoin="Csatlakozik";
+wifisetsucc="WiFi beállítások sikeres, a kamera újraindul";
+wifisetfail="WiFi beállítások nem";
+setttingsrestart="Újraindítás kamera";
+restartdeciveprompt="Újraindítás kamera?";
+restartdecivemessage="A készülék nem lesz működőképes közben reboot.";
+devicerestarting="Kamera újraindítás ...";
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light  ";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";

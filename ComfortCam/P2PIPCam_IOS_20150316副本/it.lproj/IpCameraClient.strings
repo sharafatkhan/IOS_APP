@@ -1,0 +1,329 @@
+/*
+ IpCameraClient.strings
+ IpCameraClient
+ 
+ Created by jiyonglong on 12-5-2.
+ Copyright 2012 __MyCompanyName__. All rights reserved.
+ */
+
+IPCamera = " Telecamera IP";
+AddCamera = " Aggiungi telecamera";
+EditCamera = " Modifica telecamera ";
+CameraName = " Nome telecamera";
+IpAddr = " Indirizzo IP";
+Port = " Porta";
+User = " Utente";
+Pwd = " Pwd";
+OK = " OK";
+Cancel = " Annulla";
+SearchCamera = " Cerca telecamera ";
+Back = " Indietro";
+Hide = " Nascondi";
+Connecting = " Connessione...";
+Options = " Opzioni";
+Livestream = " Streaming in tempo reale";
+Edit = " Modifica";
+Setting = " Impostazione";
+Delete = " Elimina";
+DeviceID = " ID:";
+CameraType = " Tipo di telecamera:";
+PPPStatus = " Stato PPP: ";
+CameraID =" ID telecamera ";
+InputCameraName = " Immetti nome telecamera";
+InputCameraID = " Immetti ID telecamera";
+InputUserName = " Immetti nome utente";
+InputPassword = " Immetti password";
+CameraInfo = " Info telecamera";
+Done =  "  Fine";
+PPPPModeP2P = " Modalità P2P";
+PPPPModeRelay = " Relè modalità P2P";
+PPPPModeUnknown = " Modalità sconosciuta";
+PPPPStatusUnknown = " Sconosciuto";
+PPPPStatusConnecting = " Connessione";
+PPPPStatusInitialing = " Inizializzazione";
+PPPPStatusOnline = " Online";
+PPPPStatusConnectFailed = " Connessione non riuscita";
+PPPPStatusDisconnected = " Disconnesso";
+PPPPStatusInvalidID = " ID non valido";
+PleaseInputCamreraName = " Immettere nome telecamera";
+PleaseInputCameraID = " Immettere ID telecamera";
+PleaseInputUserName = " Immettere utente";
+CameraIsNotOnline = " Telecamera offline";
+Version = " Versione";
+DefaultVideoParams = " Impostazioni predefinite";
+UnknownResolution = " Risoluzione sconosciuta";
+PPPPMode = " Modalità PPPP:";
+PPPPStatusConnectTimeout = " Timeout connessione";
+RelayModeTimeout = " Timeout connessione relè:";
+StrSeconds = " Secondi";
+ScanDisplayMessage = " Scansione codice QR entro la casella";
+ScanQRCode = " Scansione codice QR";
+ClickScan = " Fare clic su Scansione";
+LiveView = " Visualizzazione in tempo reale";
+Network = " Rete";
+WifiSetting = " Impostazioni Wi-Fi";
+WifiList = " Elenco Wi-Fi";
+EnterPwd = " Immetti pwd";
+Loading = " Caricamento...";
+WillSet = " Imposta";
+NotSetting = " Impostazioni non riuscite";
+About = " Informazioni";
+UserSetting = " Impostazioni utente";
+TakePictureSuccess = " Scatto foto riuscito";
+UserSetting = " Impostazioni utente";
+AlarmSetting = " Impostazioni allarme";
+ClockSetting = " Impostazioni ora";
+UserName = " Nome utente";
+datetimeDeviceTime = " Ora dispositivo";
+datetimeDeviceTiming = " Impostazione ora";
+datetimeDeviceTimingServer = " Server NTP";
+datetimeDeviceTimezone = " Fuso orario";
+datetimeDeviceTimeLocal = " ora locale";
+alarmMotionEnable = " Rilevamento movimento abilitato";
+alarmMotionLevel = " Sensibilità movimento";
+alarmExtern = " Allarme I/O";
+alarmExternLevel = " Livello allarme I/O";
+alarmMotionPreset = " Preimpostazione in caso di allarme";
+alarmMotionIO = " Allarme movimento I/O";
+alarmMotionIOLevel = " Livello movimento I/O";
+alarmMail = " Invia e-mail in caso di allarme";
+alarmPicEnable = " Invia istantanea in caso di allarme";
+alarmPicTimer = " Intervallo";
+
+alarm_text_a1 = " Alto";
+alarm_text_a2 = " Basso";
+
+
+datetimeZone0 = " (GMT-11:00) Isole Midway, Samoa";
+datetimeZone1 = " (GMT -10:00) Hawaii";
+datetimeZone2 = " (GMT-09:00) Alaska";
+datetimeZone3 = " (GMT-08:00) Pacifico (Stati Uniti e Canada)";
+datetimeZone4 = " (GMT-07:00) Fuso occidentale (Stati Uniti e Canada)";
+datetimeZone5 = " (GMT-06:00) Fuso centrale";
+datetimeZone6 = " (GMT-05:00) Fuso orientale";
+datetimeZone7 = " (GMT-04:00) Fuso dell'Atlantico";
+datetimeZone8 = " (GMT-03:30) Terranova";
+datetimeZone9 = " (GMT-03:00) Brasile Orientale, Groenlandia";
+datetimeZone10 = " (GMT-02:00) Medioatlantico";
+datetimeZone11 = " (GMT-01:00) Azzorre";
+datetimeZone12 = " (GMT) Greenwich Regno Unito";
+datetimeZone13 = " (GMT+01:00) Francia, Germania, Paesi Bassi, Italia";
+datetimeZone14 = " (GMT +02:00) Grecia, Ucrania, Romania, Turchia";
+datetimeZone15 = " (GMT +03:00) Iraq, Giordania, Kuwait";
+datetimeZone16 = " (GMT +03:30) Teheran";
+datetimeZone17 = " (GMT +04:00) Baku, Armenia";
+datetimeZone18 = " (GMT +04:30) Kebuer";
+datetimeZone19 = " (GMT +05:00) Pakistan, Russia, Ekaterinburg";
+datetimeZone20 = " (GMT +05:30) Calcutta, Mumbai, Nuova Delhi";
+datetimeZone21 = " (GMT +06:00) Bangladesh, Russia, Almaty, Novosibirsk";
+datetimeZone22 = " (GMT +07:00) Russia, Tailandia, Hanoi, Giacarta, Krasnojarsk";
+datetimeZone23 = " (GMT +08:00) Cina, Hong Kong, Australia Occidentale, Singapore, Taiwan, Russia";
+datetimeZone24 = " (GMT +09:00) Giappone, Corea, Yakusk";
+datetimeZone25 = " (GMT +09:30) Australia Centrale, Darwin, Adelaide";
+datetimeZone26 = " (GMT +10:00) Guam, Russia, Australia";
+datetimeZone27 = " (GMT +11:00) Isole Salomone";
+datetimeZone28 = " (GMT +12:00) Fiji, Nuova Zelanda";
+
+MotionLevelHigh="Alto";
+MotionLevelMiddle="Medio";
+MotionLevelLow="Basso";
+DropListMotionLevel="Livello movimento";
+DropListTriggerLevel="Livello di trigger";
+DropListPreset="Preimpostazione";
+DropListOutputLevel="Livello di uscita";
+DropListUploadInterval="Intervallo di upload (sec.)";
+DropListTimeZone="Fuso orario";
+DropListNtpServer="Server NTP";
+
+LAN = " LAN";
+LANSearch = " Cerca LAN";
+Alarm = " Allarme";
+Picture = " Immagine";
+Record = " Registrazione";
+Local = " Locale";
+Remote = " Remoto";
+LocalPic = " Immagine locale";
+SavePictureSuccess = " Salvataggio immagine riuscita ";
+
+Message= "Eliminare?";
+DeletePicture = " Eliminare immagine?";
+TouchAddCamera = " Tocca per aggiungere telecamera";
+
+FTPSetting = " Impostazioni FTP";
+FTPServer = " Server FTP ";
+FTPUser = " Utente FTP";
+FTPPwd = " Pwd FTP";
+FTPPort = " Porta FTP";
+FTPUploadInterval = " Intervallo di upload FTP";
+InputFtpServer = " Server FTP";
+InputFtpUser = " Utente FTP";
+InputFtpPwd = " Pwd FTP";
+MailSetting = " Impostazioni e-mail";
+MailSender = " Mittente";
+MailSmtpSvr = " Server SMTP";
+MailSmtpPort = " Porta SMTP";
+MailAuth = " Autorizzazione";
+MailUser = " Utente";
+MailPwd = " Pwd";
+MailRecv1 = " Destinatario 1";
+MailRecv2 = " Destinatario 2";
+MailRecv3 = " Destinatario 3";
+MailRecv4 = " Destinatario 4";
+InputMailSender = " Mittente";
+InputMailServer = " Server SMTP";
+InputMailUser = " Utente";
+InputMailPwd = " Pwd";
+InputMailRecv = " Destinatario";
+alarmRecord = " Registra in caso di evento";
+
+//摄像机上限提示
+cameraNumOut="Quantità massima di telecamere raggiunta";
+ingInitCamera="Inizializzazione della telecamera";
+selectAll="Seleziona tutto";
+reserveSelect="Inverti selezione";
+useradmin="Amministratore";
+userOperator="Operatore";
+noadmin="Nessun amministratore";
+
+SdcardSetting="Impostazioni scheda SD";
+sdcard_total="Capacità totale scheda SD (M)";
+sdcard_remain="Capacità disponibile scheda SD (M)";
+sdcard_input="Ingresso scheda SD";
+sdcard_output="Uscita scheda SD";
+sdcard_status="Stato scheda SD";
+sdcard_recordtime="Tempo di registrazione scheda SD";
+sdcard_fixedtime_record="Tempo di registrazione fisso";
+sdcard_cover_record="Registrazione ciclica";
+sdcard_range="Range 5-120";
+
+play_stop_record_p="Impossibile riprodurre file durante la registrazione";
+record_filename="Nome file: ";
+record_filetime="Tempo file: ";
+
+PPPPStatusInvalidUserPwd="Nome utente o password non validi";
+filesize="Dimensioni file: ";
+
+
+
+about_soft_information="Informazioni software";
+about_server_information="Informazioni server";
+about_default_server_addr="Indirizzo server";
+about_default_prompt="Server recuperato. Riavviare app";
+about_server_finish="Server recuperato. Riavviare app ";
+about_server_prompt="Immetti indirizzo server";
+
+ftp_uploadtime_prompt="Intervallo di upload 0～3600";
+preset_call="Vai a preimpostazione";
+preset_set="Imposta preimpostazione";
+preset="Preimpostazione";
+
+setuser_nomatch="Utente o password possono avere solo lettere e numeri";
+
+inputCameraIp="Indirizzo IP telecamera";
+inputCameraPort="Porta telecamera";
+cameraIp="Indirizzo IP";
+cameraPort="Porta";
+pleaseInputcameraIp="Immettere indirizzo IP della telecamera";
+pleaseInputcameraPort="Immettere numero porta della telecamera";
+
+play_watchmode="Modalità streaming";
+play_goodvalue="Alta qualità";
+play_fastspeed="Alta velocità";
+play_goodfast="Velocità e qualità";
+play_frame="Velocità";
+play_recording="Registrazione...";
+
+addcamera_prompt="Dispositivo già presente";
+nouserorloginuser="Nome utente non può essere utente o loginuser";
+nopwd="Password non può essere pwd";
+
+moreviewall="Visualizza 4 schermate a schermo intero";
+
+ddnscameraisofflineornolan="La telecamera è offline o non si trova nella stessa rete";
+
+wifipwdcheck= "Modalità sicura";
+wifipwdopen= "Apri";
+wifipwdshare= "Condividi";
+wifipwdkekformat= "Formato chiave";
+kekformatAscci= "ASCII";
+kekformat16= "Esadecimale";
+
+nochinese= "Non può contenere caratteri cinesi";
+
+initPicPrompt= "Caricamento immagine…";
+
+piclisteditprompt= "Caricamento immagine. Toccare il tasto Modifica";
+moreviewinit= "Telecamera in fase di inizializzazione. Attendere";
+moreviewadded= "La telecamera è stata aggiunta.";
+fourviews= "Quattro visualizzazioni";
+p2pmoreview= "Quattro visualizzazioni P2P";
+ddnscameraisofflineornolan="Richiesta non riuscita o telefono cellulare e macchina fotografica sono collegati a una rete diversa";
+moreviewall="Quattro View fotocamera è già stata aggiunta";
+play_watchmode="modalità Guarda";
+addcamera_idnotchinese="ID non può contenere i caratteri cinesi";
+sdcard_record_starttime="inizio della registrazione";
+sdcard_record_endtime="registrazione end";
+sdcard_startendtime_prompt="Ora di inizio deve essere minore di fine tempo";
+
+
+sdcard_format="SD formattazione";
+
+versionInfo="informazioni sulla versione";
+versionNew="nuova versione:";
+versionIgnore="Ignorare la versione";
+versionUpdate="Aggiorna subito";
+versionlaterUpdate="Aggiornamento dopo";
+
+defaultName="Nome";
+
+versionInfo="Version information";
+versionNew="New version:";
+versionIgnore="Ignore the version";
+versionUpdate="Update immediately";
+versionlaterUpdate="Update later";
+
+
+sd_record_audio="Record Audio";
+isEnableAlarmAudio="Abilita registrazione audio";
+wifijoin="Aderire";
+wifisetsucc="Impostazioni WiFi successo, la fotocamera si riavvierà";
+wifisetfail="Impostazioni WiFi fallito";
+setttingsrestart="Camera riavvio";
+restartdeciveprompt="Riavvio camera";
+restartdecivemessage="Il dispositivo non sarà operativo durante il riavvio.";
+devicerestarting="Camera riavvio ...";
+
+wifi_connectedfail="Connect Failed";
+wifi_connected="Connected";
+
+
+//报警界面
+alarmview_title="Alarm";
+
+//报警日志查看界面
+alerm_push_log = "Alarm Details";
+alerm_motion_alarm="Motion Alarm";
+alerm_gpio_alarm="GPIO Alarm";
+alarm_audio_alarm="Audio Alarm";
+about_receiverpush="Receive alarm push";
+sdformat_prompt="Formatting,please wait";
+
+play_alarmopen="On Alarm  ";
+play_alarmclose="Off Alarm  ";
+play_ledopen="On Led Light  ";
+play_ledclose="Off Led Light  ";
+play_ledauto="Auto Led Light";
+play_gpioopen="Open GPIO Alarm";
+play_gpioclose="Close GPIO Alarm";
+
+MailNone="NONE";
+MailSSL="SSL";
+MailTLS="TLS";
+initVidPrompt="Vidoe Loading...";
+
+refresh_toomuch="Refresh too frequently";
+PPPPStatusLanOnline="LAN online";
+PPPPStatusWLanOnline="WAN online";
+
+scanID="Scan QR Code";
+scanID_Prompt="Align the QR Code/bar code within the frame to scan";
